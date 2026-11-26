@@ -1,0 +1,226 @@
+{
+  "base/sega": {
+    "egg": {
+      "pairs": 17,
+      "solved": 2,
+      "attempted_open_members": 34,
+      "successful_queried_open_members": 32
+    },
+    "non_egg": {
+      "pairs": 15,
+      "solved": 6,
+      "attempted_open_members": 18,
+      "successful_queried_open_members": 16
+    }
+  },
+  "a0/sega": {
+    "egg": {
+      "pairs": 17,
+      "solved": 2,
+      "attempted_open_members": 34,
+      "successful_queried_open_members": 34
+    },
+    "non_egg": {
+      "pairs": 15,
+      "solved": 8,
+      "attempted_open_members": 20,
+      "successful_queried_open_members": 18
+    }
+  },
+  "a1/sega": {
+    "egg": {
+      "pairs": 17,
+      "solved": 3,
+      "attempted_open_members": 34,
+      "successful_queried_open_members": 34
+    },
+    "non_egg": {
+      "pairs": 15,
+      "solved": 8,
+      "attempted_open_members": 22,
+      "successful_queried_open_members": 22
+    }
+  },
+  "a2/sega": {
+    "egg": {
+      "pairs": 17,
+      "solved": 3,
+      "attempted_open_members": 34,
+      "successful_queried_open_members": 34
+    },
+    "non_egg": {
+      "pairs": 15,
+      "solved": 7,
+      "attempted_open_members": 20,
+      "successful_queried_open_members": 20
+    }
+  },
+  "p/sega": {
+    "egg": {
+      "pairs": 17,
+      "solved": 4,
+      "attempted_open_members": 34,
+      "successful_queried_open_members": 34
+    },
+    "non_egg": {
+      "pairs": 15,
+      "solved": 8,
+      "attempted_open_members": 20,
+      "successful_queried_open_members": 18
+    }
+  },
+  "s2/sega": {
+    "egg": {
+      "pairs": 17,
+      "solved": 2,
+      "attempted_open_members": 34,
+      "successful_queried_open_members": 34
+    },
+    "non_egg": {
+      "pairs": 15,
+      "solved": 6,
+      "attempted_open_members": 20,
+      "successful_queried_open_members": 20
+    }
+  },
+  "s3/sega": {
+    "egg": {
+      "pairs": 17,
+      "solved": 1,
+      "attempted_open_members": 32,
+      "successful_queried_open_members": 32
+    },
+    "non_egg": {
+      "pairs": 15,
+      "solved": 7,
+      "attempted_open_members": 20,
+      "successful_queried_open_members": 19
+    }
+  },
+  "ans/sega": {
+    "egg": {
+      "pairs": 17,
+      "solved": 0,
+      "attempted_open_members": 10,
+      "successful_queried_open_members": 6
+    },
+    "non_egg": {
+      "pairs": 15,
+      "solved": 1,
+      "attempted_open_members": 4,
+      "successful_queried_open_members": 4
+    }
+  },
+  "base/segb": {
+    "egg": {
+      "pairs": 2,
+      "solved": 0,
+      "attempted_open_members": 4,
+      "successful_queried_open_members": 4
+    },
+    "non_egg": {
+      "pairs": 21,
+      "solved": 3,
+      "attempted_open_members": 0,
+      "successful_queried_open_members": 0
+    }
+  },
+  "a0/segb": {
+    "egg": {
+      "pairs": 2,
+      "solved": 0,
+      "attempted_open_members": 4,
+      "successful_queried_open_members": 4
+    },
+    "non_egg": {
+      "pairs": 21,
+      "solved": 9,
+      "attempted_open_members": 0,
+      "successful_queried_open_members": 0
+    }
+  },
+  "a1/segb": {
+    "egg": {
+      "pairs": 2,
+      "solved": 0,
+      "attempted_open_members": 4,
+      "successful_queried_open_members": 4
+    },
+    "non_egg": {
+      "pairs": 21,
+      "solved": 6,
+      "attempted_open_members": 1,
+      "successful_queried_open_members": 1
+    }
+  },
+  "a2/segb": {
+    "egg": {
+      "pairs": 2,
+      "solved": 0,
+      "attempted_open_members": 4,
+      "successful_queried_open_members": 4
+    },
+    "non_egg": {
+      "pairs": 21,
+      "solved": 4,
+      "attempted_open_members": 3,
+      "successful_queried_open_members": 3
+    }
+  },
+  "p/segb": {
+    "egg": {
+      "pairs": 2,
+      "solved": 0,
+      "attempted_open_members": 4,
+      "successful_queried_open_members": 4
+    },
+    "non_egg": {
+      "pairs": 21,
+      "solved": 9,
+      "attempted_open_members": 0,
+      "successful_queried_open_members": 0
+    }
+  },
+  "s2/segb": {
+    "egg": {
+      "pairs": 2,
+      "solved": 0,
+      "attempted_open_members": 2,
+      "successful_queried_open_members": 2
+    },
+    "non_egg": {
+      "pairs": 21,
+      "solved": 2,
+      "attempted_open_members": 0,
+      "successful_queried_open_members": 0
+    }
+  },
+  "s3/segb": {
+    "egg": {
+      "pairs": 2,
+      "solved": 0,
+      "attempted_open_members": 4,
+      "successful_queried_open_members": 4
+    },
+    "non_egg": {
+      "pairs": 21,
+      "solved": 6,
+      "attempted_open_members": 1,
+      "successful_queried_open_members": 0
+    }
+  },
+  "ans/segb": {
+    "egg": {
+      "pairs": 2,
+      "solved": 0,
+      "attempted_open_members": 0,
+      "successful_queried_open_members": 0
+    },
+    "non_egg": {
+      "pairs": 21,
+      "solved": 0,
+      "attempted_open_members": 0,
+      "successful_queried_open_members": 0
+    }
+  }
+}

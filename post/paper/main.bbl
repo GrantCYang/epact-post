@@ -1,0 +1,123 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ahn et~al.(2022)Ahn, Brohan, Brown, Chebotar, Cortes, David, Finn, Fu,
+  et~al.]{ahn2022saycan}
+Michael Ahn, Anthony Brohan, Noah Brown, Yevgen Chebotar, Omar Cortes, Byron
+  David, Chelsea Finn, Chuyuan Fu, et~al.
+\newblock Do as {I} can, not as {I} say: Grounding language in robotic
+  affordances.
+\newblock \emph{arXiv preprint arXiv:2204.01691}, 2022.
+\newblock URL \url{https://arxiv.org/abs/2204.01691}.
+
+\bibitem[Bai et~al.(2025)Bai, Cai, Chen, Chen, Chen, Cheng, Deng, Ding,
+  et~al.]{bai2025qwen3vl}
+Shuai Bai, Yuxuan Cai, Ruizhe Chen, Keqin Chen, Xionghui Chen, Zesen Cheng,
+  Lianghao Deng, Wei Ding, et~al.
+\newblock {Qwen3-VL} technical report.
+\newblock \emph{arXiv preprint arXiv:2511.21631}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2511.21631}.
+
+\bibitem[Bajcsy(1988)]{bajcsy1988active}
+Ruzena Bajcsy.
+\newblock Active perception.
+\newblock \emph{Proceedings of the IEEE}, 76\penalty0 (8):\penalty0 966--1005,
+  1988.
+\newblock \doi{10.1109/5.5968}.
+\newblock URL \url{https://doi.org/10.1109/5.5968}.
+
+\bibitem[Bohg et~al.(2017)Bohg, Hausman, Sankaran, Brock, Kragic, Schaal, and
+  Sukhatme]{bohg2017interactive}
+Jeannette Bohg, Karol Hausman, Bharath Sankaran, Oliver Brock, Danica Kragic,
+  Stefan Schaal, and Gaurav Sukhatme.
+\newblock Interactive perception: Leveraging action in perception and
+  perception in action.
+\newblock \emph{IEEE Transactions on Robotics}, 33\penalty0 (6):\penalty0
+  1273--1291, 2017.
+\newblock \doi{10.1109/TRO.2017.2721939}.
+\newblock URL \url{https://doi.org/10.1109/TRO.2017.2721939}.
+
+\bibitem[Chen et~al.(2022)Chen, Kwiatkowski, Vondrick, and
+  Lipson]{chen2022fullbody}
+Boyuan Chen, Robert Kwiatkowski, Carl Vondrick, and Hod Lipson.
+\newblock Fully body visual self-modeling of robot morphologies.
+\newblock \emph{Science Robotics}, 7\penalty0 (68):\penalty0 eabn1944, 2022.
+\newblock \doi{10.1126/scirobotics.abn1944}.
+\newblock URL \url{https://doi.org/10.1126/scirobotics.abn1944}.
+
+\bibitem[Cully et~al.(2015)Cully, Clune, Tarapore, and Mouret]{cully2015robots}
+Antoine Cully, Jeff Clune, Danesh Tarapore, and Jean-Baptiste Mouret.
+\newblock Robots that can adapt like animals.
+\newblock \emph{Nature}, 521\penalty0 (7553):\penalty0 503--507, 2015.
+\newblock \doi{10.1038/nature14422}.
+\newblock URL \url{https://doi.org/10.1038/nature14422}.
+
+\bibitem[Das et~al.(2018)Das, Datta, Gkioxari, Lee, Parikh, and
+  Batra]{das2018embodied}
+Abhishek Das, Samyak Datta, Georgia Gkioxari, Stefan Lee, Devi Parikh, and
+  Dhruv Batra.
+\newblock Embodied question answering.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, pp.\  1--10, 2018.
+\newblock URL
+  \url{https://openaccess.thecvf.com/content_cvpr_2018/html/Das_Embodied_Question_Answering_CVPR_2018_paper.html}.
+
+\bibitem[Gao et~al.(2024)Gao, Sarkar, Xia, Xiao, Wu, Ichter, Majumdar, and
+  Sadigh]{gao2024physically}
+Jensen Gao, Bidipta Sarkar, Fei Xia, Ted Xiao, Jiajun Wu, Brian Ichter,
+  Anirudha Majumdar, and Dorsa Sadigh.
+\newblock Physically grounded vision-language models for robotic manipulation.
+\newblock In \emph{IEEE International Conference on Robotics and Automation
+  (ICRA)}, pp.\  12462--12469, 2024.
+\newblock \doi{10.1109/ICRA57147.2024.10610090}.
+\newblock URL \url{https://doi.org/10.1109/ICRA57147.2024.10610090}.
+
+\bibitem[Huang et~al.(2022)Huang, Xia, Xiao, Chan, Liang, Florence, Zeng,
+  Tompson, et~al.]{huang2022inner}
+Wenlong Huang, Fei Xia, Ted Xiao, Harris Chan, Jacky Liang, Pete Florence, Andy
+  Zeng, Jonathan Tompson, et~al.
+\newblock {Inner Monologue}: Embodied reasoning through planning with language
+  models.
+\newblock In \emph{Conference on Robot Learning}, volume 205 of
+  \emph{Proceedings of Machine Learning Research}, pp.\  1769--1782, 2022.
+\newblock URL \url{https://proceedings.mlr.press/v205/huang23c.html}.
+
+\bibitem[Kolve et~al.(2017)Kolve, Mottaghi, Han, VanderBilt, Weihs, Herrasti,
+  Deitke, Ehsani, et~al.]{kolve2017ai2thor}
+Eric Kolve, Roozbeh Mottaghi, Winson Han, Eli VanderBilt, Luca Weihs, Alvaro
+  Herrasti, Matt Deitke, Kiana Ehsani, et~al.
+\newblock {AI2-THOR}: An interactive {3D} environment for visual {AI}.
+\newblock \emph{arXiv preprint arXiv:1712.05474}, 2017.
+\newblock URL \url{https://arxiv.org/abs/1712.05474}.
+
+\bibitem[Li et~al.(2026)Li, Gu, Liu, Hu, Li, Li, Tang, Wu, Shugurov, Ma,
+  Zollhoefer, An, Mittal, Zhao, Krishna, Li, Liu, and Guo]{li2026humanclaw}
+Siyao Li, Jiawei Gu, Shuai Liu, Kairui Hu, Zekun Li, Linjie Li, Chengcheng
+  Tang, Po-Chen Wu, Ivan Shugurov, Lingni Ma, Michael Zollhoefer, Sizhe An,
+  Abhay Mittal, Amy Zhao, Ranjay Krishna, Manling Li, Ziwei Liu, and Chuan Guo.
+\newblock {HumanCLAW}: Can vision-language models act through a body?
+\newblock \emph{arXiv preprint arXiv:2607.27180}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2607.27180}.
+
+\bibitem[Majumdar et~al.(2024)Majumdar, Ajay, Zhang, Putta, Yenamandra, Henaff,
+  Silwal, Mcvay, et~al.]{majumdar2024openeqa}
+Arjun Majumdar, Anurag Ajay, Xiaohan Zhang, Pranav Putta, Sriram Yenamandra,
+  Mikael Henaff, Sneha Silwal, Paul Mcvay, et~al.
+\newblock {OpenEQA}: Embodied question answering in the era of foundation
+  models.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition (CVPR)}, pp.\  16488--16498, 2024.
+\newblock URL
+  \url{https://openaccess.thecvf.com/content/CVPR2024/html/Majumdar_OpenEQA_Embodied_Question_Answering_in_the_Era_of_Foundation_Models_CVPR_2024_paper.html}.
+
+\bibitem[Yang(2026)]{yang2026epact}
+Yixuan Yang.
+\newblock {EPACT}: Vision--language agents can use evidence they cannot
+  acquire.
+\newblock Companion manuscript, 2026.
+
+\end{thebibliography}

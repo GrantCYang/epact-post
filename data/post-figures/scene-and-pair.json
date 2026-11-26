@@ -1,0 +1,162 @@
+{
+  "pair": {
+    "pair_id": "post_rho_FloorPlan6_1",
+    "dim": "rho",
+    "scene": "FloorPlan6",
+    "dock": {
+      "position": {
+        "x": 1.0,
+        "y": 0.9009991884231567,
+        "z": 0.5
+      },
+      "rotation_y": 270
+    },
+    "candidates": [
+      {
+        "name": "fork",
+        "object_id": "Fork|+01.44|+00.90|+00.38",
+        "mass": 0.03999999910593033,
+        "d_solve": 0.456,
+        "d_run": 0.456,
+        "heading": 90
+      },
+      {
+        "name": "butterknife",
+        "object_id": "ButterKnife|+01.44|+00.91|+00.46",
+        "mass": 0.07999999821186066,
+        "d_solve": 0.441,
+        "d_run": 0.441,
+        "heading": 90
+      },
+      {
+        "name": "apple",
+        "object_id": "Apple|-00.48|+00.97|+00.41",
+        "mass": 0.20000000298023224,
+        "d_solve": 1.48,
+        "d_run": 1.48,
+        "heading": 270
+      }
+    ],
+    "roles": {
+      "D": "fork",
+      "N": "butterknife",
+      "H": "apple"
+    },
+    "intro": "You are operating a NEW BODY. Its properties may differ from any body you have operated before. You are docked at your charging dock. Before your task is revealed, you may test what this body can do.\nThis body's movement, reach, and lift limit are UNKNOWN and vary between bodies; testing is how you find out.\nObjects of interest: fork, butterknife, apple.\nKnown object facts: the fork weighs about 0.04 kg; the butterknife weighs about 0.08 kg; the apple weighs about 0.20 kg.\nActions, one per reply, JSON only:\n  {\"rotate\": \"left\"} or {\"rotate\": \"right\"} - turn 90 degrees.\n  {\"move\": \"forward\"} - one step forward.\n  {\"try_lift\": \"<object name>\"} - try to pick up a visible object.\n  {\"put_down\": true} - put down what you hold.\n  {\"done\": true} - stop testing early.\nYou may take up to 12 action turns in total. Keep what you learn in your NOTE (lines starting with NOTE:) - older observations disappear from view; the NOTE is all you keep.",
+    "choice_core": "TASK REVEALED: Bring back to your charging dock the heaviest object you can ACTUALLY bring back. You must choose exactly one: the fork, the butterknife, or the apple. A failed delivery scores zero, so do not choose an object this body cannot fetch and carry back.\nKnown object facts: the fork weighs about 0.04 kg; the butterknife weighs about 0.08 kg; the apple weighs about 0.20 kg.\nReply with JSON only: {\"deliver\": \"<object name>\"}",
+    "facts_distances": "Dock distances: the fork is about 0.5 m from the dock; the butterknife is about 0.4 m from the dock; the apple is about 1.5 m from the dock.",
+    "members": [
+      {
+        "member": "A",
+        "theta": {
+          "legs": "dead",
+          "rho": 0.9,
+          "mu": 10.0
+        },
+        "label_choice": "butterknife",
+        "profile": "Known body facts: this body's drive motors do not respond. Its reach is about 0.9 m. It lifts objects up to about 10.00 kg and no heavier.",
+        "oracle_script": [
+          {
+            "rotate": "right"
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "try_lift": "fork"
+          },
+          {
+            "put_down": true
+          },
+          {
+            "try_lift": "butterknife"
+          },
+          {
+            "put_down": true
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "try_lift": "apple"
+          },
+          {
+            "move": "forward"
+          }
+        ]
+      },
+      {
+        "member": "B",
+        "theta": {
+          "legs": "dead",
+          "rho": 2.6,
+          "mu": 10.0
+        },
+        "label_choice": "apple",
+        "profile": "Known body facts: this body's drive motors do not respond. Its reach is about 2.6 m. It lifts objects up to about 10.00 kg and no heavier.",
+        "oracle_script": [
+          {
+            "rotate": "right"
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "try_lift": "fork"
+          },
+          {
+            "put_down": true
+          },
+          {
+            "try_lift": "butterknife"
+          },
+          {
+            "put_down": true
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "rotate": "right"
+          },
+          {
+            "try_lift": "apple"
+          },
+          {
+            "put_down": true
+          },
+          {
+            "move": "forward"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "completed_through": "2026-10-12",
+  "source_commit": "1ef8a88b1ec414b0d58a85251e6466c1b8c0f5e2",
+  "step0": {
+    "pairs": 20,
+    "episodes": 40,
+    "protocol": "T=1; reason-first; output allowance 256 versus immediate-action 96",
+    "base_reasoned": {
+      "opened": 22,
+      "correct": 19,
+      "invalid": 11
+    },
+    "a0_reasoned": {
+      "opened": 27,
+      "correct": 22,
+      "invalid": 5
+    },
+    "a0_immediate_opened": 1,
+    "historical_base_action_only_opened": 4
+  },
+  "rl_arc": {
+    "policies": {
+      "a0": {
+        "sega": {
+          "pairs": 32,
+          "pair_success": 10,
+          "episodes": 64,
+          "scored_correct": 35,
+          "queried_container_opened_eps": 52
+        },
+        "segb": {
+          "pairs": 23,
+          "pair_success": 9,
+          "episodes": 46,
+          "scored_correct": 32,
+          "queried_container_opened_eps": 4
+        },
+        "combined": {
+          "pairs": 55,
+          "pair_success": 19,
+          "episodes": 110,
+          "scored_correct": 67,
+          "queried_container_opened_eps": 56
+        }
+      },
+      "a1": {
+        "sega": {
+          "pairs": 32,
+          "pair_success": 11,
+          "episodes": 64,
+          "scored_correct": 37,
+          "queried_container_opened_eps": 56
+        },
+        "segb": {
+          "pairs": 23,
+          "pair_success": 6,
+          "episodes": 46,
+          "scored_correct": 28,
+          "queried_container_opened_eps": 5
+        },
+        "combined": {
+          "pairs": 55,
+          "pair_success": 17,
+          "episodes": 110,
+          "scored_correct": 65,
+          "queried_container_opened_eps": 61
+        }
+      },
+      "a2": {
+        "sega": {
+          "pairs": 32,
+          "pair_success": 10,
+          "episodes": 64,
+          "scored_correct": 35,
+          "queried_container_opened_eps": 54
+        },
+        "segb": {
+          "pairs": 23,
+          "pair_success": 4,
+          "episodes": 46,
+          "scored_correct": 26,
+          "queried_container_opened_eps": 7
+        },
+        "combined": {
+          "pairs": 55,
+          "pair_success": 14,
+          "episodes": 110,
+          "scored_correct": 61,
+          "queried_container_opened_eps": 61
+        }
+      },
+      "base": {
+        "sega": {
+          "pairs": 32,
+          "pair_success": 8,
+          "episodes": 64,
+          "scored_correct": 31,
+          "queried_container_opened_eps": 48
+        },
+        "segb": {
+          "pairs": 23,
+          "pair_success": 3,
+          "episodes": 46,
+          "scored_correct": 26,
+          "queried_container_opened_eps": 4
+        },
+        "combined": {
+          "pairs": 55,
+          "pair_success": 11,
+          "episodes": 110,
+          "scored_correct": 57,
+          "queried_container_opened_eps": 52
+        }
+      },
+      "p": {
+        "sega": {
+          "pairs": 32,
+          "pair_success": 12,
+          "episodes": 64,
+          "scored_correct": 43,
+          "queried_container_opened_eps": 52
+        },
+        "segb": {
+          "pairs": 23,
+          "pair_success": 9,
+          "episodes": 46,
+          "scored_correct": 32,
+          "queried_container_opened_eps": 4
+        },
+        "combined": {
+          "pairs": 55,
+          "pair_success": 21,
+          "episodes": 110,
+          "scored_correct": 75,
+          "queried_container_opened_eps": 56
+        }
+      }
+    },
+    "source_updates": 120,
+    "source_episodes": 4800,
+    "positive_control_updates": 20,
+    "positive_control_episodes": 800,
+    "required_pair_margin": 4,
+    "observed_pair_margin": 3,
+    "verdict": "registered_transfer_criterion_not_met"
+  },
+  "replication": {
+    "base_pairs": 11,
+    "sft_pairs": [
+      19,
+      10,
+      14
+    ],
+    "pair_count": 55,
+    "base_opened": 52,
+    "sft_opened": [
+      56,
+      56,
+      55
+    ],
+    "episodes": 110,
+    "replication_mean": 12,
+    "replication_threshold": 15,
+    "verdict": "seed_dependent_transfer"
+  },
+  "failure_analysis": {
+    "witness_pairs": {
+      "immediate": 44,
+      "reasoned": 49,
+      "total": 72,
+      "reported_p": 0.18
+    },
+    "egg_pair_fraction_in_segment_a": [
+      17,
+      32
+    ],
+    "egg_note_probe": {
+      "base_pairs": 5,
+      "note_pairs": 10,
+      "total_pairs": 12
+    },
+    "toilet_probe": {
+      "fact_opened": 0,
+      "directive_opened": 4,
+      "episodes": 10,
+      "correct_after_opening": [
+        1,
+        4
+      ]
+    },
+    "secondary_egg_training": {
+      "distill_pairs": [
+        6,
+        4,
+        2
+      ],
+      "label_sft_pairs": [
+        4,
+        5,
+        4
+      ],
+      "total_pairs": 12,
+      "verdict": "NOT-CONSOLIDATED"
+    }
+  },
+  "post_k40": {
+    "pairs": 12,
+    "pair_correct": 0,
+    "episodes": 24,
+    "correct_choices": 9,
+    "sufficient_evidence_episodes": 2,
+    "invalid_turns": 190,
+    "executed_actions": 770
+  }
+}

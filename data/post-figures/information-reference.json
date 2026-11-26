@@ -1,0 +1,1099 @@
+{
+  "episodes": [
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_legs_FloorPlan13_2",
+      "member": "A",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_legs_FloorPlan13_2",
+      "member": "B",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_legs_FloorPlan17_1",
+      "member": "A",
+      "changed_turns": 1,
+      "final_evidence": {
+        "feas": {
+          "apple": "infeasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 6,
+      "invalid_turns": 6
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_legs_FloorPlan17_1",
+      "member": "B",
+      "changed_turns": 1,
+      "final_evidence": {
+        "feas": {
+          "spatula": "feasible"
+        },
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_legs_FloorPlan2_3",
+      "member": "A",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 11,
+      "invalid_turns": 1
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_legs_FloorPlan2_3",
+      "member": "B",
+      "changed_turns": 1,
+      "final_evidence": {
+        "feas": {
+          "bread": "feasible"
+        },
+        "motors_observed": false,
+        "entailed": "bread"
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_legs_FloorPlan6_0",
+      "member": "A",
+      "changed_turns": 2,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_legs_FloorPlan6_0",
+      "member": "B",
+      "changed_turns": 2,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible"
+        },
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 11,
+      "invalid_turns": 1
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_mu_FloorPlan7_2",
+      "member": "A",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_mu_FloorPlan7_2",
+      "member": "B",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_mu_FloorPlan7_3",
+      "member": "A",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_mu_FloorPlan7_3",
+      "member": "B",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_mu_FloorPlan8_4",
+      "member": "A",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_mu_FloorPlan8_4",
+      "member": "B",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_mu_FloorPlan8_5",
+      "member": "A",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_mu_FloorPlan8_5",
+      "member": "B",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_rho_FloorPlan13_3",
+      "member": "A",
+      "changed_turns": 2,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "knife": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_rho_FloorPlan13_3",
+      "member": "B",
+      "changed_turns": 1,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_rho_FloorPlan17_2",
+      "member": "A",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 7,
+      "invalid_turns": 5
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_rho_FloorPlan17_2",
+      "member": "B",
+      "changed_turns": 2,
+      "final_evidence": {
+        "feas": {
+          "apple": "feasible",
+          "peppershaker": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": "apple"
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_rho_FloorPlan5_0",
+      "member": "A",
+      "changed_turns": 2,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_rho_FloorPlan5_0",
+      "member": "B",
+      "changed_turns": 2,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_rho_FloorPlan6_1",
+      "member": "A",
+      "changed_turns": 2,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned",
+      "pair_id": "post_rho_FloorPlan6_1",
+      "member": "B",
+      "changed_turns": 2,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 11,
+      "invalid_turns": 1
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_legs_FloorPlan13_2",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "knife": "feasible",
+          "fork": "feasible",
+          "bowl": "infeasible"
+        },
+        "motors_observed": true,
+        "entailed": "knife"
+      },
+      "executed_actions": 16,
+      "invalid_turns": 24
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_legs_FloorPlan13_2",
+      "member": "B",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 6,
+      "invalid_turns": 34
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_legs_FloorPlan17_1",
+      "member": "A",
+      "changed_turns": 1,
+      "final_evidence": {
+        "feas": {
+          "spatula": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 39,
+      "invalid_turns": 1
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_legs_FloorPlan17_1",
+      "member": "B",
+      "changed_turns": 1,
+      "final_evidence": {
+        "feas": {
+          "spatula": "feasible"
+        },
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 40,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_legs_FloorPlan2_3",
+      "member": "A",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 39,
+      "invalid_turns": 1
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_legs_FloorPlan2_3",
+      "member": "B",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 14,
+      "invalid_turns": 26
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_legs_FloorPlan6_0",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible",
+          "apple": "infeasible"
+        },
+        "motors_observed": true,
+        "entailed": "butterknife"
+      },
+      "executed_actions": 23,
+      "invalid_turns": 17
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_legs_FloorPlan6_0",
+      "member": "B",
+      "changed_turns": 2,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible"
+        },
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 20,
+      "invalid_turns": 20
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_mu_FloorPlan7_2",
+      "member": "A",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 40,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_mu_FloorPlan7_2",
+      "member": "B",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 40,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_mu_FloorPlan7_3",
+      "member": "A",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 38,
+      "invalid_turns": 2
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_mu_FloorPlan7_3",
+      "member": "B",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 40,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_mu_FloorPlan8_4",
+      "member": "A",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 40,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_mu_FloorPlan8_4",
+      "member": "B",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 40,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_mu_FloorPlan8_5",
+      "member": "A",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 40,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_mu_FloorPlan8_5",
+      "member": "B",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": false,
+        "entailed": null
+      },
+      "executed_actions": 7,
+      "invalid_turns": 33
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_rho_FloorPlan13_3",
+      "member": "A",
+      "changed_turns": 1,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 40,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_rho_FloorPlan13_3",
+      "member": "B",
+      "changed_turns": 1,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 40,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_rho_FloorPlan17_2",
+      "member": "A",
+      "changed_turns": 1,
+      "final_evidence": {
+        "feas": {
+          "spatula": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 18,
+      "invalid_turns": 22
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_rho_FloorPlan17_2",
+      "member": "B",
+      "changed_turns": 1,
+      "final_evidence": {
+        "feas": {
+          "spatula": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 38,
+      "invalid_turns": 2
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_rho_FloorPlan5_0",
+      "member": "A",
+      "changed_turns": 2,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 40,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_rho_FloorPlan5_0",
+      "member": "B",
+      "changed_turns": 2,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 40,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_rho_FloorPlan6_1",
+      "member": "A",
+      "changed_turns": 1,
+      "final_evidence": {
+        "feas": {
+          "apple": "infeasible"
+        },
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 32,
+      "invalid_turns": 8
+    },
+    {
+      "condition": "post/checkup_reasoned_k40",
+      "pair_id": "post_rho_FloorPlan6_1",
+      "member": "B",
+      "changed_turns": 0,
+      "final_evidence": {
+        "feas": {},
+        "motors_observed": true,
+        "entailed": null
+      },
+      "executed_actions": 40,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_legs_FloorPlan13_2",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "knife": "feasible",
+          "bowl": "infeasible"
+        },
+        "motors_observed": true,
+        "entailed": "knife"
+      },
+      "executed_actions": 14,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_legs_FloorPlan13_2",
+      "member": "B",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "knife": "feasible",
+          "bowl": "feasible"
+        },
+        "motors_observed": false,
+        "entailed": "bowl"
+      },
+      "executed_actions": 40,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_legs_FloorPlan17_1",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "spatula": "feasible",
+          "peppershaker": "feasible",
+          "apple": "infeasible"
+        },
+        "motors_observed": true,
+        "entailed": "peppershaker"
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_legs_FloorPlan17_1",
+      "member": "B",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "spatula": "feasible",
+          "peppershaker": "feasible",
+          "apple": "feasible"
+        },
+        "motors_observed": false,
+        "entailed": "apple"
+      },
+      "executed_actions": 29,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_legs_FloorPlan2_3",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "potato": "feasible",
+          "bowl": "feasible",
+          "bread": "infeasible"
+        },
+        "motors_observed": true,
+        "entailed": "bowl"
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_legs_FloorPlan2_3",
+      "member": "B",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "potato": "feasible",
+          "bowl": "feasible",
+          "bread": "feasible"
+        },
+        "motors_observed": false,
+        "entailed": "bread"
+      },
+      "executed_actions": 31,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_legs_FloorPlan6_0",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible",
+          "apple": "infeasible"
+        },
+        "motors_observed": true,
+        "entailed": "butterknife"
+      },
+      "executed_actions": 14,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_legs_FloorPlan6_0",
+      "member": "B",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible",
+          "apple": "feasible"
+        },
+        "motors_observed": false,
+        "entailed": "apple"
+      },
+      "executed_actions": 81,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_mu_FloorPlan7_2",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "egg": "feasible",
+          "butterknife": "feasible",
+          "knife": "infeasible"
+        },
+        "motors_observed": false,
+        "entailed": "butterknife"
+      },
+      "executed_actions": 199,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_mu_FloorPlan7_2",
+      "member": "B",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "egg": "feasible",
+          "butterknife": "feasible",
+          "knife": "feasible"
+        },
+        "motors_observed": false,
+        "entailed": "knife"
+      },
+      "executed_actions": 200,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_mu_FloorPlan7_3",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "egg": "feasible",
+          "butterknife": "feasible",
+          "knife": "infeasible"
+        },
+        "motors_observed": false,
+        "entailed": "butterknife"
+      },
+      "executed_actions": 181,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_mu_FloorPlan7_3",
+      "member": "B",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "egg": "feasible",
+          "butterknife": "feasible",
+          "knife": "feasible"
+        },
+        "motors_observed": false,
+        "entailed": "knife"
+      },
+      "executed_actions": 182,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_mu_FloorPlan8_4",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "dishsponge": "feasible",
+          "egg": "feasible",
+          "bowl": "infeasible"
+        },
+        "motors_observed": false,
+        "entailed": "egg"
+      },
+      "executed_actions": 184,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_mu_FloorPlan8_4",
+      "member": "B",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "dishsponge": "feasible",
+          "egg": "feasible",
+          "bowl": "feasible"
+        },
+        "motors_observed": false,
+        "entailed": "bowl"
+      },
+      "executed_actions": 185,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_mu_FloorPlan8_5",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "dishsponge": "feasible",
+          "egg": "feasible",
+          "bowl": "infeasible"
+        },
+        "motors_observed": false,
+        "entailed": "egg"
+      },
+      "executed_actions": 178,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_mu_FloorPlan8_5",
+      "member": "B",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "dishsponge": "feasible",
+          "egg": "feasible",
+          "bowl": "feasible"
+        },
+        "motors_observed": false,
+        "entailed": "bowl"
+      },
+      "executed_actions": 179,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_rho_FloorPlan13_3",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "knife": "feasible",
+          "plate": "infeasible"
+        },
+        "motors_observed": true,
+        "entailed": "knife"
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_rho_FloorPlan13_3",
+      "member": "B",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "knife": "feasible",
+          "plate": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": "plate"
+      },
+      "executed_actions": 13,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_rho_FloorPlan17_2",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "spatula": "feasible",
+          "peppershaker": "feasible",
+          "apple": "infeasible"
+        },
+        "motors_observed": true,
+        "entailed": "peppershaker"
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_rho_FloorPlan17_2",
+      "member": "B",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "spatula": "feasible",
+          "peppershaker": "feasible",
+          "apple": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": "apple"
+      },
+      "executed_actions": 13,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_rho_FloorPlan5_0",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible",
+          "plate": "infeasible"
+        },
+        "motors_observed": true,
+        "entailed": "butterknife"
+      },
+      "executed_actions": 12,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_rho_FloorPlan5_0",
+      "member": "B",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible",
+          "plate": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": "plate"
+      },
+      "executed_actions": 13,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_rho_FloorPlan6_1",
+      "member": "A",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible",
+          "apple": "infeasible"
+        },
+        "motors_observed": true,
+        "entailed": "butterknife"
+      },
+      "executed_actions": 14,
+      "invalid_turns": 0
+    },
+    {
+      "condition": "post/checkup_watch_reasoned",
+      "pair_id": "post_rho_FloorPlan6_1",
+      "member": "B",
+      "changed_turns": 3,
+      "final_evidence": {
+        "feas": {
+          "fork": "feasible",
+          "butterknife": "feasible",
+          "apple": "feasible"
+        },
+        "motors_observed": true,
+        "entailed": "apple"
+      },
+      "executed_actions": 15,
+      "invalid_turns": 0
+    }
+  ]
+}

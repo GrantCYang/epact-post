@@ -1,0 +1,7 @@
+# Third-party material
+
+[AI2-THOR](https://github.com/allenai/ai2thor/blob/main/LICENSE), Allen Institute for AI, uses the Apache 2.0 license. The Python integration targets 5.0.0 and the recorded CloudRendering build is pinned in `src/research_common/runtime.py`. [ProcTHOR](https://github.com/allenai/procthor/blob/main/LICENSE) is also Apache 2.0. The two EPACT witness images, 352 separately distributed frozen start views and embedded paper figures are recorded simulator renders; POST's worked reach scene is FloorPlan6. Simulator software, scenes and asset libraries are obtained upstream, not distributed here. Copyright and asset-specific terms remain with their owners.
+
+External model dependencies are [Qwen3-VL-2B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-2B-Instruct), [Qwen3-VL-8B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct) and [Qwen3-VL-30B-A3B-Instruct](https://huggingface.co/Qwen/Qwen3-VL-30B-A3B-Instruct), published under Apache 2.0. Recovered model metadata and the preserved 2B checkout revision are recorded in `configs/model_identity.json`; complete historical run binding remains unresolved, so current upstream revisions must not be substituted and called the original model. No weights or adapters are included.
+
+Python dependencies and the included ICLR style files retain their original notices. MIT applies to original project code; CC BY 4.0 applies to original numeric results. These licenses do not replace upstream model, dataset or simulator terms.

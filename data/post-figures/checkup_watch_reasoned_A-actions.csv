@@ -1,0 +1,30 @@
+action_index,action,ok,rule,new_feasibility,outcome,agent
+
+1,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+2,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+3,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 180, ""horizon"": 30.000003814697266}"
+
+4,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 270, ""horizon"": 30.000003814697266}"
+
+5,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+6,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+7,"{""try_lift"": ""fork""}",True,,"{""fork"": ""feasible""}","{""action"": {""try_lift"": ""fork""}, ""theta_applied"": null, ""target"": {""object_id"": ""Fork|+01.44|+00.90|+00.38"", ""mass"": 0.03999999910593033, ""distance"": 0.456}, ""ok"": true, ""rule"": null, ""engine_error"": """"}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+8,"{""put_down"": true}",True,,,"{""action"": {""put_down"": true}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+9,"{""try_lift"": ""butterknife""}",True,,"{""fork"": ""feasible"", ""butterknife"": ""feasible""}","{""action"": {""try_lift"": ""butterknife""}, ""theta_applied"": null, ""target"": {""object_id"": ""ButterKnife|+01.44|+00.91|+00.46"", ""mass"": 0.07999999821186066, ""distance"": 0.441}, ""ok"": true, ""rule"": null, ""engine_error"": """"}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+10,"{""put_down"": true}",True,,,"{""action"": {""put_down"": true}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+11,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 180, ""horizon"": 30.000003814697266}"
+
+12,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 270, ""horizon"": 30.000003814697266}"
+
+13,"{""try_lift"": ""apple""}",False,rho,,"{""action"": {""try_lift"": ""apple""}, ""theta_applied"": ""rho"", ""target"": {""object_id"": ""Apple|-00.48|+00.97|+00.41"", ""mass"": 0.20000000298023224, ""distance"": 1.48}, ""ok"": false, ""rule"": ""rho""}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 270, ""horizon"": 30.000003814697266}"
+
+14,"{""move"": ""forward""}",False,legs_dead,"{""fork"": ""feasible"", ""butterknife"": ""feasible"", ""apple"": ""infeasible""}","{""action"": {""move"": ""forward""}, ""theta_applied"": ""legs"", ""ok"": false, ""rule"": ""legs_dead""}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 270, ""horizon"": 30.000003814697266}"
+

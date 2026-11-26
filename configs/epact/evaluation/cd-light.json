@@ -1,0 +1,1467 @@
+{
+  "protocol": "inspection-v4-dev",
+  "scope": "C/D/C+D-to-L transfer: original L/L+D/N subset; training houses disjoint",
+  "eligibility": "Human-reviewed paired witnesses and replayed legal oracle routes; no model-score filtering. Existing validation houses reused for instrument development; not an untouched holdout.",
+  "visually_reviewed": true,
+  "pair_ids": [
+    "val00000-L-CHECK-0",
+    "val00000-LD-CHECK-0",
+    "val00000-NREAD-CHECK-0",
+    "val00002-NREAD-CHECK-0",
+    "val00003-L-CHECK-0",
+    "val00003-LD-CHECK-0",
+    "val00003-NREAD-CHECK-0",
+    "val00004-NREAD-CHECK-0",
+    "val00005-NREAD-CHECK-0",
+    "val00007-NREAD-CHECK-0",
+    "val00009-L-CHECK-0",
+    "val00009-LD-CHECK-0",
+    "val00010-NREAD-CHECK-0",
+    "val00011-NREAD-CHECK-0",
+    "val00014-L-CHECK-0",
+    "val00015-L-CHECK-0-lampfix",
+    "val00015-LD-CHECK-0-lampfix",
+    "val00017-NREAD-CHECK-0",
+    "val00018-L-CHECK-0-lampfix",
+    "val00018-NREAD-CHECK-0",
+    "val00019-L-CHECK-0",
+    "val00019-LD-CHECK-0",
+    "val00022-L-CHECK-0",
+    "val00027-L-CHECK-0",
+    "val00027-LD-CHECK-0",
+    "val00033-L-CHECK-0",
+    "val00046-LD-CHECK-0",
+    "val00049-LD-CHECK-0",
+    "val00053-LD-CHECK-0",
+    "val00061-LD-CHECK-0"
+  ],
+  "data_sha256": "9bd0db0a56bff362c0a1033a41b268d9af3ae58d8532897ab48a9dc8f9b43416",
+  "data_root": "artifacts/balanced_eval_v4_frozen_v1/data",
+  "scene_dataset_sha256": "d808540514e26b6726cd2790490e669b572eeb94febb5188a2f403591dd21721",
+  "observations": {
+    "val00000-L-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-L-CHECK-0/val00000-L-CHECK-0__start.png",
+        "image_sha256": "ff23cec691a4fbc3f1763138396eb3b8465ca3c9c807fae2db03843a97578cbc"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-L-CHECK-0/val00000-L-CHECK-0__witness.png",
+        "image_sha256": "b59f7b81fd31a9238542a76fd47aecdddbc86b9721f632f6b3a21e827da3f8e8"
+      }
+    },
+    "val00000-L-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-L-CHECK-0/val00000-L-CHECK-0-twin__start.png",
+        "image_sha256": "d1ae879d657368493dabdb6982826ccdf0cf09f63b08116cea2eb51e9f173a31"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-L-CHECK-0/val00000-L-CHECK-0-twin__witness.png",
+        "image_sha256": "9ff3af474f08bdbfb94115da3a17ecbf17a177852bca803434ce308b0fd63dec"
+      }
+    },
+    "val00000-LD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-LD-CHECK-0/val00000-LD-CHECK-0__start.png",
+        "image_sha256": "ce3f697c799c13fe846265507c7c6b9b28af55f10d894e167ad0dbd90fd6256d"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-LD-CHECK-0/val00000-LD-CHECK-0__witness.png",
+        "image_sha256": "b59f7b81fd31a9238542a76fd47aecdddbc86b9721f632f6b3a21e827da3f8e8"
+      }
+    },
+    "val00000-LD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-LD-CHECK-0/val00000-LD-CHECK-0-twin__start.png",
+        "image_sha256": "d97ae978148b15bd1d69a9fcbec4dbaa02984cdc79972ba341330eb3535b8c60"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-LD-CHECK-0/val00000-LD-CHECK-0-twin__witness.png",
+        "image_sha256": "ceb2fd09d7d1fb92f72574592263883b4d81ceffadd7e9d9c82aac2255c33358"
+      }
+    },
+    "val00000-NREAD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00000-NREAD-CHECK-0/val00000-NREAD-CHECK-0__start.png",
+        "image_sha256": "90970bf1bf924f7dff2b06e61fac925d4b344a74dfe26a3988e193effa2ab9b9"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00000-NREAD-CHECK-0/val00000-NREAD-CHECK-0__witness.png",
+        "image_sha256": "90970bf1bf924f7dff2b06e61fac925d4b344a74dfe26a3988e193effa2ab9b9"
+      }
+    },
+    "val00000-NREAD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00000-NREAD-CHECK-0/val00000-NREAD-CHECK-0-twin__start.png",
+        "image_sha256": "4027fc003b99ff277aff6e7b0f870bab5b934c03781a3d9153818c611c0a02f6"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00000-NREAD-CHECK-0/val00000-NREAD-CHECK-0-twin__witness.png",
+        "image_sha256": "4027fc003b99ff277aff6e7b0f870bab5b934c03781a3d9153818c611c0a02f6"
+      }
+    },
+    "val00002-NREAD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00002-NREAD-CHECK-0/val00002-NREAD-CHECK-0__start.png",
+        "image_sha256": "5900d4b8d5be3ad849e8a12064f8b4784c45f47f93b7ae72f4356047dbeff212"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00002-NREAD-CHECK-0/val00002-NREAD-CHECK-0__witness.png",
+        "image_sha256": "5900d4b8d5be3ad849e8a12064f8b4784c45f47f93b7ae72f4356047dbeff212"
+      }
+    },
+    "val00002-NREAD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00002-NREAD-CHECK-0/val00002-NREAD-CHECK-0-twin__start.png",
+        "image_sha256": "2fea6b5d8c7b9a166bead1016efc0dc0d1392d0578bf71264b8ce54c6700d8d0"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00002-NREAD-CHECK-0/val00002-NREAD-CHECK-0-twin__witness.png",
+        "image_sha256": "2fea6b5d8c7b9a166bead1016efc0dc0d1392d0578bf71264b8ce54c6700d8d0"
+      }
+    },
+    "val00003-L-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00003-L-CHECK-0/val00003-L-CHECK-0__start.png",
+        "image_sha256": "c97105b3a84aa51c89b92e697a15db9d33d7f85711762610006d8930e934d503"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00003-L-CHECK-0/val00003-L-CHECK-0__witness.png",
+        "image_sha256": "f1231d896a06f1f531a6f9d53ad70e5b96a06c0f54b41fb226ea4140827f5da3"
+      }
+    },
+    "val00003-L-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00003-L-CHECK-0/val00003-L-CHECK-0-twin__start.png",
+        "image_sha256": "92b01438217cc31fe47c13f263871d984226c3f0e39a0e7cae6712e4ab1f505a"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00003-L-CHECK-0/val00003-L-CHECK-0-twin__witness.png",
+        "image_sha256": "c3f8d9bebd5cc5d21d9cfbd956c95f10b4eb5353af728dcdfcbe81128e6909e6"
+      }
+    },
+    "val00003-LD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00003-LD-CHECK-0/val00003-LD-CHECK-0__start.png",
+        "image_sha256": "909cabdd89bc35e913cd329b8efc7cb340606d69fc84eafd16be886669235c2b"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00003-LD-CHECK-0/val00003-LD-CHECK-0__witness.png",
+        "image_sha256": "f1231d896a06f1f531a6f9d53ad70e5b96a06c0f54b41fb226ea4140827f5da3"
+      }
+    },
+    "val00003-LD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00003-LD-CHECK-0/val00003-LD-CHECK-0-twin__start.png",
+        "image_sha256": "eafeeec9353fb93e2dfa58a415efbd869a62f779a816a4acea7d5ad51798f2e4"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00003-LD-CHECK-0/val00003-LD-CHECK-0-twin__witness.png",
+        "image_sha256": "c3f8d9bebd5cc5d21d9cfbd956c95f10b4eb5353af728dcdfcbe81128e6909e6"
+      }
+    },
+    "val00003-NREAD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00003-NREAD-CHECK-0/val00003-NREAD-CHECK-0__start.png",
+        "image_sha256": "c444a37415773d9572c351436c76ed7eb6b6399cc0b1f1eeeac8be762f7cb8b7"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00003-NREAD-CHECK-0/val00003-NREAD-CHECK-0__witness.png",
+        "image_sha256": "c444a37415773d9572c351436c76ed7eb6b6399cc0b1f1eeeac8be762f7cb8b7"
+      }
+    },
+    "val00003-NREAD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00003-NREAD-CHECK-0/val00003-NREAD-CHECK-0-twin__start.png",
+        "image_sha256": "9741d11233b51066560d15036f2abb4bde357392b99ef8192317bb08d9582232"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00003-NREAD-CHECK-0/val00003-NREAD-CHECK-0-twin__witness.png",
+        "image_sha256": "9741d11233b51066560d15036f2abb4bde357392b99ef8192317bb08d9582232"
+      }
+    },
+    "val00004-NREAD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00004-NREAD-CHECK-0/val00004-NREAD-CHECK-0__start.png",
+        "image_sha256": "9d8dbeccab72bc98e253e2c86066e51eeda42853bb43d153a06093b98bd3ff44"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00004-NREAD-CHECK-0/val00004-NREAD-CHECK-0__witness.png",
+        "image_sha256": "9d8dbeccab72bc98e253e2c86066e51eeda42853bb43d153a06093b98bd3ff44"
+      }
+    },
+    "val00004-NREAD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00004-NREAD-CHECK-0/val00004-NREAD-CHECK-0-twin__start.png",
+        "image_sha256": "f3705a46d84a983b34ac0807c8ccfa16f99ddbf3499166a2dc7073fd5b0dcb33"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00004-NREAD-CHECK-0/val00004-NREAD-CHECK-0-twin__witness.png",
+        "image_sha256": "f3705a46d84a983b34ac0807c8ccfa16f99ddbf3499166a2dc7073fd5b0dcb33"
+      }
+    },
+    "val00005-NREAD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00005-NREAD-CHECK-0/val00005-NREAD-CHECK-0__start.png",
+        "image_sha256": "380cc73798f7326ab854fa19e7303e4e3d0a0904a1fb5d59d48d342f56f3b25e"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00005-NREAD-CHECK-0/val00005-NREAD-CHECK-0__witness.png",
+        "image_sha256": "380cc73798f7326ab854fa19e7303e4e3d0a0904a1fb5d59d48d342f56f3b25e"
+      }
+    },
+    "val00005-NREAD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00005-NREAD-CHECK-0/val00005-NREAD-CHECK-0-twin__start.png",
+        "image_sha256": "30374f8ff68c16651e3d7af14cc8f89e4511be97a77ffdec83bc404b51c02770"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00005-NREAD-CHECK-0/val00005-NREAD-CHECK-0-twin__witness.png",
+        "image_sha256": "30374f8ff68c16651e3d7af14cc8f89e4511be97a77ffdec83bc404b51c02770"
+      }
+    },
+    "val00007-NREAD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00007-NREAD-CHECK-0/val00007-NREAD-CHECK-0__start.png",
+        "image_sha256": "835fa997de4c327774a793dc9c036fbd3d503be23a954d8880e677e4c3077d4d"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00007-NREAD-CHECK-0/val00007-NREAD-CHECK-0__witness.png",
+        "image_sha256": "835fa997de4c327774a793dc9c036fbd3d503be23a954d8880e677e4c3077d4d"
+      }
+    },
+    "val00007-NREAD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00007-NREAD-CHECK-0/val00007-NREAD-CHECK-0-twin__start.png",
+        "image_sha256": "0133b1203e813796868c8b58c8d79be214909f5c3ec3b59e0d5c02b54cce737a"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00007-NREAD-CHECK-0/val00007-NREAD-CHECK-0-twin__witness.png",
+        "image_sha256": "0133b1203e813796868c8b58c8d79be214909f5c3ec3b59e0d5c02b54cce737a"
+      }
+    },
+    "val00009-L-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00009-L-CHECK-0/val00009-L-CHECK-0__start.png",
+        "image_sha256": "785e8ddb818c557447a23832229b0d3b30cc40129fc2548e483d43dab2b3e283"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00009-L-CHECK-0/val00009-L-CHECK-0__witness.png",
+        "image_sha256": "2739225d32dccbbe93f78e389ff14382f2bb52767a35c78171093cd031b847e9"
+      }
+    },
+    "val00009-L-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00009-L-CHECK-0/val00009-L-CHECK-0-twin__start.png",
+        "image_sha256": "36d6e607143503d5d66f40c198e740f0e6d9e193c7adac2a3974deeff557d94b"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00009-L-CHECK-0/val00009-L-CHECK-0-twin__witness.png",
+        "image_sha256": "2e7a003490a5a90713783e064c2abe604eae181f4e6ed1dda87a1e6ae256ed38"
+      }
+    },
+    "val00009-LD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00009-LD-CHECK-0/val00009-LD-CHECK-0__start.png",
+        "image_sha256": "ce5840548c14b464b6c60e3d1ddec238694629e9399fa4503ddca98195486946"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00009-LD-CHECK-0/val00009-LD-CHECK-0__witness.png",
+        "image_sha256": "51a15c90bab1928489955f9c53f66d4764fba587c0b444ea7f388b3eb599f274"
+      }
+    },
+    "val00009-LD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00009-LD-CHECK-0/val00009-LD-CHECK-0-twin__start.png",
+        "image_sha256": "1af7b963a79dc26cd9c5b19e97c217b3d2b6f1176cdc6484ee0afb6cc9f37fd1"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00009-LD-CHECK-0/val00009-LD-CHECK-0-twin__witness.png",
+        "image_sha256": "f338208e419b38b121ed87d7e9ee32362718ac122d2558738ff42380658c6c9b"
+      }
+    },
+    "val00010-NREAD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00010-NREAD-CHECK-0/val00010-NREAD-CHECK-0__start.png",
+        "image_sha256": "41047710a97eb9ab6d03d4dba154c85b390cc591de23b93ecf7a1a9cf06764ec"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00010-NREAD-CHECK-0/val00010-NREAD-CHECK-0__witness.png",
+        "image_sha256": "41047710a97eb9ab6d03d4dba154c85b390cc591de23b93ecf7a1a9cf06764ec"
+      }
+    },
+    "val00010-NREAD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00010-NREAD-CHECK-0/val00010-NREAD-CHECK-0-twin__start.png",
+        "image_sha256": "70e6d838a4ec90af0c580272e28644c6a08441c1d778fb5ec9c3dbb2f709edd4"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00010-NREAD-CHECK-0/val00010-NREAD-CHECK-0-twin__witness.png",
+        "image_sha256": "70e6d838a4ec90af0c580272e28644c6a08441c1d778fb5ec9c3dbb2f709edd4"
+      }
+    },
+    "val00011-NREAD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00011-NREAD-CHECK-0/val00011-NREAD-CHECK-0__start.png",
+        "image_sha256": "c2eb11140495f99ca788fc6846be86ea87ac9b5dbd3b6a09fb9b78c00048ae64"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00011-NREAD-CHECK-0/val00011-NREAD-CHECK-0__witness.png",
+        "image_sha256": "c2eb11140495f99ca788fc6846be86ea87ac9b5dbd3b6a09fb9b78c00048ae64"
+      }
+    },
+    "val00011-NREAD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00011-NREAD-CHECK-0/val00011-NREAD-CHECK-0-twin__start.png",
+        "image_sha256": "c817949e734fe1191ce11daf7751916c16c8518ca7d85a9081db5f2ca3482779"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00011-NREAD-CHECK-0/val00011-NREAD-CHECK-0-twin__witness.png",
+        "image_sha256": "c817949e734fe1191ce11daf7751916c16c8518ca7d85a9081db5f2ca3482779"
+      }
+    },
+    "val00014-L-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00014-L-CHECK-0/val00014-L-CHECK-0__start.png",
+        "image_sha256": "ece8abec3f56e3d56ede9d1455d0bc875a705fe02d3771e3c6a5f5e2acb8b942"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00014-L-CHECK-0/val00014-L-CHECK-0__witness.png",
+        "image_sha256": "ac96c0f3aeb4ed7e89ad6954bb3c35856170dca003491095927af132ce41dc38"
+      }
+    },
+    "val00014-L-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00014-L-CHECK-0/val00014-L-CHECK-0-twin__start.png",
+        "image_sha256": "423443eca11be06f5c1ed832422c5fe2fcd1fc04dace2500e271ca03a1d1b9c2"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00014-L-CHECK-0/val00014-L-CHECK-0-twin__witness.png",
+        "image_sha256": "d5c90c4bfe384f653c0ed491d7e80136ebb017c7c1dd0e1e28c5969424fd6e06"
+      }
+    },
+    "val00015-L-CHECK-0-lampfix": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-L-CHECK-0-lampfix/val00015-L-CHECK-0-lampfix__start.png",
+        "image_sha256": "ec03d159e6274e99aca9e8f511e667bb621dfb72a284d08f7ad26d4b267db4cd"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-L-CHECK-0-lampfix/val00015-L-CHECK-0-lampfix__witness.png",
+        "image_sha256": "b774bfe749a13e3364b93956da3b6cfedcd6966a2d7b290cfd0d43bda10ad4d8"
+      }
+    },
+    "val00015-L-CHECK-0-lampfix-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-L-CHECK-0-lampfix/val00015-L-CHECK-0-lampfix-twin__start.png",
+        "image_sha256": "afa860c94b62b3f80b393b84f6553c5eec6c4d2b56368e77c53699d55c47342b"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-L-CHECK-0-lampfix/val00015-L-CHECK-0-lampfix-twin__witness.png",
+        "image_sha256": "bb80c1d95625de69996d34668d4d5f2eb033400100e154de0d584254abf500bf"
+      }
+    },
+    "val00015-LD-CHECK-0-lampfix": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-LD-CHECK-0-lampfix/val00015-LD-CHECK-0-lampfix__start.png",
+        "image_sha256": "1dc11096c36d633d7d932aae16cc4f38b31155414719020e4309369463049cb2"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-LD-CHECK-0-lampfix/val00015-LD-CHECK-0-lampfix__witness.png",
+        "image_sha256": "571c741e84f57a38b2daced95b6e0b7eb530cf579d2f4680ec591b4497c55b5c"
+      }
+    },
+    "val00015-LD-CHECK-0-lampfix-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-LD-CHECK-0-lampfix/val00015-LD-CHECK-0-lampfix-twin__start.png",
+        "image_sha256": "a1f37f047392e44fd979e7170b68361624e138dfd6fc284e2eb5ce489750e3d2"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-LD-CHECK-0-lampfix/val00015-LD-CHECK-0-lampfix-twin__witness.png",
+        "image_sha256": "bdef5a438daf91981f405c153a4e813ea776fc178e9bd954a0683ea1c0a384eb"
+      }
+    },
+    "val00017-NREAD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00017-NREAD-CHECK-0/val00017-NREAD-CHECK-0__start.png",
+        "image_sha256": "7b9e912d831ef39e7712df62b6141cbf292674fffe96a4a13f7ddc33b58a231d"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00017-NREAD-CHECK-0/val00017-NREAD-CHECK-0__witness.png",
+        "image_sha256": "7b9e912d831ef39e7712df62b6141cbf292674fffe96a4a13f7ddc33b58a231d"
+      }
+    },
+    "val00017-NREAD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00017-NREAD-CHECK-0/val00017-NREAD-CHECK-0-twin__start.png",
+        "image_sha256": "d7d7d0cd761cc4c83b884f613a1c53e8d84cbc3ab550acc0ad5d240f3500d17a"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00017-NREAD-CHECK-0/val00017-NREAD-CHECK-0-twin__witness.png",
+        "image_sha256": "d7d7d0cd761cc4c83b884f613a1c53e8d84cbc3ab550acc0ad5d240f3500d17a"
+      }
+    },
+    "val00018-L-CHECK-0-lampfix": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00018-L-CHECK-0-lampfix/val00018-L-CHECK-0-lampfix__start.png",
+        "image_sha256": "c112823a5613c7d318017c5d6e13412154ae8856e10ce1314f3b50ab2041263e"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00018-L-CHECK-0-lampfix/val00018-L-CHECK-0-lampfix__witness.png",
+        "image_sha256": "05df7f34996940a626ed1974f506a9f6a6d55bce0a0f0a4751e3783759f62004"
+      }
+    },
+    "val00018-L-CHECK-0-lampfix-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00018-L-CHECK-0-lampfix/val00018-L-CHECK-0-lampfix-twin__start.png",
+        "image_sha256": "2352b838d8f5950263ec036f05c0022f341b80bd218ab8f7fe0849d37d9953ad"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00018-L-CHECK-0-lampfix/val00018-L-CHECK-0-lampfix-twin__witness.png",
+        "image_sha256": "0e827072311295526348f335f87faf9290ff538280f684d869f043fed52bbcf0"
+      }
+    },
+    "val00018-NREAD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00018-NREAD-CHECK-0/val00018-NREAD-CHECK-0__start.png",
+        "image_sha256": "2114de667da0845c9ca2e1ac21ab9e0e8e2c368a13aaa1b686a5b08b3d14a3f4"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00018-NREAD-CHECK-0/val00018-NREAD-CHECK-0__witness.png",
+        "image_sha256": "2114de667da0845c9ca2e1ac21ab9e0e8e2c368a13aaa1b686a5b08b3d14a3f4"
+      }
+    },
+    "val00018-NREAD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00018-NREAD-CHECK-0/val00018-NREAD-CHECK-0-twin__start.png",
+        "image_sha256": "ae1ab2099eb749cfa9fa118760bf38f2c656a975dc68ded9452827f5beff217b"
+      },
+      "witness": {
+        "image": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00018-NREAD-CHECK-0/val00018-NREAD-CHECK-0-twin__witness.png",
+        "image_sha256": "ae1ab2099eb749cfa9fa118760bf38f2c656a975dc68ded9452827f5beff217b"
+      }
+    },
+    "val00019-L-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00019-L-CHECK-0/val00019-L-CHECK-0__start.png",
+        "image_sha256": "2ef36db5391bc8277870701ed38f6409e5b9aab311cd7c632af82d604d4e32c9"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00019-L-CHECK-0/val00019-L-CHECK-0__witness.png",
+        "image_sha256": "79bb4d145b0fdc656ea435def6b053dbc089393d7ca0c008919a0440985c7422"
+      }
+    },
+    "val00019-L-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00019-L-CHECK-0/val00019-L-CHECK-0-twin__start.png",
+        "image_sha256": "d2a108ce83b5a02081cf971b1317b5254fd7508c5289f5ecdb2fcb314e2d1d2a"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00019-L-CHECK-0/val00019-L-CHECK-0-twin__witness.png",
+        "image_sha256": "c3ebc8b9ed4cd193e1600f9b2fb9a96d2f9d068bb9bd4997d9057219e0689a3a"
+      }
+    },
+    "val00019-LD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00019-LD-CHECK-0/val00019-LD-CHECK-0__start.png",
+        "image_sha256": "1c8b4be2848a7bba53ecbd113d227956c6f63fd58708700a6f21ca8ae20cd8bc"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00019-LD-CHECK-0/val00019-LD-CHECK-0__witness.png",
+        "image_sha256": "df836622791b109fd8b4cbeab10c3f8e161ab54935a633cde0f825a53c74b75e"
+      }
+    },
+    "val00019-LD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00019-LD-CHECK-0/val00019-LD-CHECK-0-twin__start.png",
+        "image_sha256": "1c8b4be2848a7bba53ecbd113d227956c6f63fd58708700a6f21ca8ae20cd8bc"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00019-LD-CHECK-0/val00019-LD-CHECK-0-twin__witness.png",
+        "image_sha256": "4ecfa3ad6c48704b73a369e2d36aee9e87bc68a3dc6f23a2d2db1e3cd0e39bfe"
+      }
+    },
+    "val00022-L-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00022-L-CHECK-0/val00022-L-CHECK-0__start.png",
+        "image_sha256": "6b45a257ff3bd556d4d9d10c9973cba98a4869530a31e0e5123d8485ae4daad7"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00022-L-CHECK-0/val00022-L-CHECK-0__witness.png",
+        "image_sha256": "76deae4cbeb6bb08332dc710a7af712b067259838e74c78c514ff8628660bba9"
+      }
+    },
+    "val00022-L-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00022-L-CHECK-0/val00022-L-CHECK-0-twin__start.png",
+        "image_sha256": "6b80f78c2e89a2b683c10f8e495a852dd1275ef024bcf3ff83d51c01161980db"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00022-L-CHECK-0/val00022-L-CHECK-0-twin__witness.png",
+        "image_sha256": "73b9637b404c900eaefa8ca2a4f9d47e10676c23fd5e133b38d0cb079096ebd1"
+      }
+    },
+    "val00027-L-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00027-L-CHECK-0/val00027-L-CHECK-0__start.png",
+        "image_sha256": "dc681b102d846d3d38d71ebc4fd44f8a4426c02356dc2673835e872d34c207d0"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00027-L-CHECK-0/val00027-L-CHECK-0__witness.png",
+        "image_sha256": "8022f6f2b1470009c5a4036c872d322202a62affe184e53b86cc1a8ea7b3d25f"
+      }
+    },
+    "val00027-L-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00027-L-CHECK-0/val00027-L-CHECK-0-twin__start.png",
+        "image_sha256": "a1c5d595355d08c87ebf0d6a649e5253e64235a07a1677b0e306da0829f49d49"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00027-L-CHECK-0/val00027-L-CHECK-0-twin__witness.png",
+        "image_sha256": "a3fd4d25b84adbc19daefa2701dc1ca89de2ea19c89d6e2ba620302827f62e55"
+      }
+    },
+    "val00027-LD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00027-LD-CHECK-0/val00027-LD-CHECK-0__start.png",
+        "image_sha256": "5bcdb033591508249afdff41edf41cf0b2a6e32942a04d5614dd25b22c512eb2"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00027-LD-CHECK-0/val00027-LD-CHECK-0__witness.png",
+        "image_sha256": "1934993246ab5f9b66e126620fb88e3a24e8ce9d9ef06c3e1bb8f01a0945b35b"
+      }
+    },
+    "val00027-LD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00027-LD-CHECK-0/val00027-LD-CHECK-0-twin__start.png",
+        "image_sha256": "024a7395617ba56ff7c7ad4049c3611a4c5a1849d8d060e869e3dbee2ce36a51"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00027-LD-CHECK-0/val00027-LD-CHECK-0-twin__witness.png",
+        "image_sha256": "52afdfac26a12809d2a1b12ba7084e988c7988f45b1c4187e4324ccec32e2bef"
+      }
+    },
+    "val00033-L-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00033-L-CHECK-0/val00033-L-CHECK-0__start.png",
+        "image_sha256": "479fc6952b799fac7e4a0dbad20e576762f08f44a1fa7d9301dc6610be8cfdb5"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00033-L-CHECK-0/val00033-L-CHECK-0__witness.png",
+        "image_sha256": "a071c3e75a3ef43d07986e1380178b82bb45ecc989a81b410ac3840a4e368301"
+      }
+    },
+    "val00033-L-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00033-L-CHECK-0/val00033-L-CHECK-0-twin__start.png",
+        "image_sha256": "57cd39339f147b205633b0e9b9d7132ddaca90d7d57d6923ba2a3311d934e250"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00033-L-CHECK-0/val00033-L-CHECK-0-twin__witness.png",
+        "image_sha256": "816560e48fc22ac3a79357ad688b25a0fd2c17bdc69753a4d3491fa775e64edf"
+      }
+    },
+    "val00046-LD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00046-LD-CHECK-0/val00046-LD-CHECK-0__start.png",
+        "image_sha256": "cce98bc2fd6ba022fd29bc7ea87ceafd439ff8b0bc5f93ce2912b4949c99a0c0"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00046-LD-CHECK-0/val00046-LD-CHECK-0__witness.png",
+        "image_sha256": "ed8c65ab5f4e61dc5774bcde29d7e183741d6665ffa75abdd3ccc7ec6ae1d971"
+      }
+    },
+    "val00046-LD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00046-LD-CHECK-0/val00046-LD-CHECK-0-twin__start.png",
+        "image_sha256": "f3bbe22e1a3364798127e26b9e36a54e6b4719263326038b4f2f7a5d02931f11"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00046-LD-CHECK-0/val00046-LD-CHECK-0-twin__witness.png",
+        "image_sha256": "7c3a4302b82776eea138791bce81d0867a23051a869067cb0949873844661a14"
+      }
+    },
+    "val00049-LD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00049-LD-CHECK-0/val00049-LD-CHECK-0__start.png",
+        "image_sha256": "0caefa6a4fef15537211c5864c0a6e547a9df6ed933d084dff7201f07b36c746"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00049-LD-CHECK-0/val00049-LD-CHECK-0__witness.png",
+        "image_sha256": "36e9fafde0762d45e93149a96fcdfdc6d49701bcba84ea5c364df4faf653bcc7"
+      }
+    },
+    "val00049-LD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00049-LD-CHECK-0/val00049-LD-CHECK-0-twin__start.png",
+        "image_sha256": "0caefa6a4fef15537211c5864c0a6e547a9df6ed933d084dff7201f07b36c746"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00049-LD-CHECK-0/val00049-LD-CHECK-0-twin__witness.png",
+        "image_sha256": "6bc47d3e53522b0e6b291c773fb95835808ddf3af38f4c5541a77ffead81e72a"
+      }
+    },
+    "val00053-LD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00053-LD-CHECK-0/val00053-LD-CHECK-0__start.png",
+        "image_sha256": "ad864c60c6334a2211f565d94e20ce6bb69ec3cfdad70c0bbbf99db44c0a31f7"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00053-LD-CHECK-0/val00053-LD-CHECK-0__witness.png",
+        "image_sha256": "6659691a568bc427961d222ed4ecaf8381455e7b7510bc7c15f340b0d5198220"
+      }
+    },
+    "val00053-LD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00053-LD-CHECK-0/val00053-LD-CHECK-0-twin__start.png",
+        "image_sha256": "2d852b926f2c54f9c48089ef1782b26f318068366f535e37781343d0cd4f4096"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00053-LD-CHECK-0/val00053-LD-CHECK-0-twin__witness.png",
+        "image_sha256": "d3ceb0684b0297810becd15b5456afdeecca1106b4ab012fdea92a7201300e11"
+      }
+    },
+    "val00061-LD-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00061-LD-CHECK-0/val00061-LD-CHECK-0__start.png",
+        "image_sha256": "f4624a3f24e3d550748a510d1b3befcb8bf98d62f0adfbb67b47395aed9b6654"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00061-LD-CHECK-0/val00061-LD-CHECK-0__witness.png",
+        "image_sha256": "67b164bf0a92d4e693d1f8854e6da783dbd3e4fad74ea6cc282a7105f26c64dc"
+      }
+    },
+    "val00061-LD-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00061-LD-CHECK-0/val00061-LD-CHECK-0-twin__start.png",
+        "image_sha256": "ac68230f9e341e23bf211503280c81270e517da6d4afe71984513d103a9ead69"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00061-LD-CHECK-0/val00061-LD-CHECK-0-twin__witness.png",
+        "image_sha256": "c2a6682859075e4434f597c5a5035d44fe97f0ee5c161f4ecc063b70337f69b3"
+      }
+    }
+  },
+  "family_counts": {
+    "L": 10,
+    "L+D": 10,
+    "N": 10
+  },
+  "pair_notes": {
+    "val00000-L-CHECK-0": {
+      "family": "L",
+      "review": {
+        "family": "L",
+        "audit_sha256": "18d7aeffe108afe74dea6d40ff1ddc630a33f903ee1911df9998d756d4a7e958",
+        "initial_condition": "low_light_not_strict_invariance",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "near",
+        "reason": "Alarm clock recognizable on exposed bed surface after lighting and approach.",
+        "both_witnesses_readable": true,
+        "lighting_necessity": "not_established"
+      },
+      "replay": {
+        "pair_id": "val00000-L-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-L-CHECK-0/replay.json",
+        "replay_sha256": "72f04b2578d2cd1258868c8098953d1fa2d6fdde0444c5d339a88f809aac2b48",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00000-LD-CHECK-0": {
+      "family": "L+D",
+      "review": {
+        "family": "L+D",
+        "audit_sha256": "886c37a10b019849ec06e0c46c77cb85056fa54314a26881141d57f103680661",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "near",
+        "reason": "Clock identifiable and whole bed surface visible.",
+        "initial_condition": "hidden_with_low_light_destination",
+        "lighting_necessity": "not_established",
+        "both_witnesses_readable": true
+      },
+      "replay": {
+        "pair_id": "val00000-LD-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-LD-CHECK-0/replay.json",
+        "replay_sha256": "de0845b263fbaeb38275f24814e694cfe36815d16f00ae65a8c04f13fc53d296",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00000-NREAD-CHECK-0": {
+      "family": "N",
+      "review": {
+        "family": "N",
+        "audit_root": "artifacts/balanced_ncontrols_v4/audit",
+        "audit_sha256": "a38a3b419ed57037d40e4b741ee0c850d9696bdba03a2e121eab9b55e75609cf",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "start",
+        "reviewed": "actual initial paired RGB frames",
+        "reason": "Derived shared inspection pose makes queried object and exposed region readable at start; no model-score filtering.",
+        "initial_condition": "already readable, repaired initial pose; not original-start performance"
+      },
+      "replay": {
+        "pair_id": "val00000-NREAD-CHECK-0",
+        "replay_path": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00000-NREAD-CHECK-0/replay.json",
+        "replay_sha256": "ccc3285792329b68719605007bf19d3a84903dff8371f9f121354267f08c41c8",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/ncontrols_round1.json",
+        "review_sha256": "bd023ee19d2720146edfeb8395da658c732186028733a783996103b50eefa5cc",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+      },
+      "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+    },
+    "val00002-NREAD-CHECK-0": {
+      "family": "N",
+      "review": {
+        "family": "N",
+        "audit_root": "artifacts/balanced_ncontrols_v4/audit",
+        "audit_sha256": "482aff2c7bb03f5b59bfa36e5223112720c7cc136e98ef50e3da3a582f117a4e",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "start",
+        "reviewed": "actual initial paired RGB frames",
+        "reason": "Derived shared inspection pose makes queried object and exposed region readable at start; no model-score filtering.",
+        "initial_condition": "already readable, repaired initial pose; not original-start performance"
+      },
+      "replay": {
+        "pair_id": "val00002-NREAD-CHECK-0",
+        "replay_path": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00002-NREAD-CHECK-0/replay.json",
+        "replay_sha256": "982f27143f258879de2617be2747c0d11c63ca12551117a0933025e9210b3cc8",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/ncontrols_round1.json",
+        "review_sha256": "bd023ee19d2720146edfeb8395da658c732186028733a783996103b50eefa5cc",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+      },
+      "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+    },
+    "val00003-L-CHECK-0": {
+      "family": "L",
+      "review": {
+        "family": "L",
+        "audit_sha256": "5e4d39465a066a8292c6184c810b459fc42e49bef8083caba3663d392e74b214",
+        "initial_condition": "low_light_not_strict_invariance",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "near",
+        "reason": "Book and exposed desktop readable after lighting.",
+        "both_witnesses_readable": true,
+        "lighting_necessity": "not_established"
+      },
+      "replay": {
+        "pair_id": "val00003-L-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00003-L-CHECK-0/replay.json",
+        "replay_sha256": "a4545608e1e0f120694ea55e594600862c451cbad91453e9fbf5e983db2c805b",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00003-LD-CHECK-0": {
+      "family": "L+D",
+      "review": {
+        "family": "L+D",
+        "audit_sha256": "40337a301a18d5754fc7e48c3f13c6a6717f8bb2536032e7b0f216cf10689b78",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "near",
+        "reason": "Book identifiable and exposed desk visible.",
+        "initial_condition": "hidden_with_low_light_destination",
+        "lighting_necessity": "not_established",
+        "both_witnesses_readable": true
+      },
+      "replay": {
+        "pair_id": "val00003-LD-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00003-LD-CHECK-0/replay.json",
+        "replay_sha256": "1be43ccb47fafae738fafd4afeeb395575e05dd018ed2fe478de6149f05290ea",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00003-NREAD-CHECK-0": {
+      "family": "N",
+      "review": {
+        "family": "N",
+        "audit_root": "artifacts/balanced_ncontrols_v4/audit",
+        "audit_sha256": "912f44abc182c3732b4f36be5d38ff282757f5934e1fe5350fe5222f15be8bfa",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "start",
+        "reviewed": "actual initial paired RGB frames",
+        "reason": "Derived shared inspection pose makes queried object and exposed region readable at start; no model-score filtering.",
+        "initial_condition": "already readable, repaired initial pose; not original-start performance"
+      },
+      "replay": {
+        "pair_id": "val00003-NREAD-CHECK-0",
+        "replay_path": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00003-NREAD-CHECK-0/replay.json",
+        "replay_sha256": "c40b3795f699a9c96bdb64159697d9d16dc40ea9ccec8fc3b81cb928429645e7",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/ncontrols_round1.json",
+        "review_sha256": "bd023ee19d2720146edfeb8395da658c732186028733a783996103b50eefa5cc",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+      },
+      "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+    },
+    "val00004-NREAD-CHECK-0": {
+      "family": "N",
+      "review": {
+        "family": "N",
+        "audit_root": "artifacts/balanced_ncontrols_v4/audit",
+        "audit_sha256": "7324d562ebc83019788c97a1c5aca7e771e485ce57f2b72b26df25f066fbab88",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "start",
+        "reviewed": "actual initial paired RGB frames",
+        "reason": "Derived shared inspection pose makes queried object and exposed region readable at start; no model-score filtering.",
+        "initial_condition": "already readable, repaired initial pose; not original-start performance"
+      },
+      "replay": {
+        "pair_id": "val00004-NREAD-CHECK-0",
+        "replay_path": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00004-NREAD-CHECK-0/replay.json",
+        "replay_sha256": "a755d3171ae96da7652c9be218b0db5418199dfc8ae28ad362c187fb5b374887",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/ncontrols_round1.json",
+        "review_sha256": "bd023ee19d2720146edfeb8395da658c732186028733a783996103b50eefa5cc",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+      },
+      "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+    },
+    "val00005-NREAD-CHECK-0": {
+      "family": "N",
+      "review": {
+        "family": "N",
+        "audit_root": "artifacts/balanced_ncontrols_v4/audit",
+        "audit_sha256": "dc5de9c6280f5d5a38479cd5109f874326edf262784013715f9dcd9be2f15794",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "start",
+        "reviewed": "actual initial paired RGB frames",
+        "reason": "Derived shared inspection pose makes queried object and exposed region readable at start; no model-score filtering.",
+        "initial_condition": "already readable, repaired initial pose; not original-start performance"
+      },
+      "replay": {
+        "pair_id": "val00005-NREAD-CHECK-0",
+        "replay_path": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00005-NREAD-CHECK-0/replay.json",
+        "replay_sha256": "86358570d401b2adb9edb195f8cac1fa996056108fc9a91c58bddf749a781ead",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/ncontrols_round1.json",
+        "review_sha256": "bd023ee19d2720146edfeb8395da658c732186028733a783996103b50eefa5cc",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+      },
+      "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+    },
+    "val00007-NREAD-CHECK-0": {
+      "family": "N",
+      "review": {
+        "family": "N",
+        "audit_root": "artifacts/balanced_ncontrols_v4/audit",
+        "audit_sha256": "a27632fe11e661f0cb2f7b76a14f38a40155faf0917795161069178d29f4184f",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "start",
+        "reviewed": "actual initial paired RGB frames",
+        "reason": "Derived shared inspection pose makes queried object and exposed region readable at start; no model-score filtering.",
+        "initial_condition": "already readable, repaired initial pose; not original-start performance"
+      },
+      "replay": {
+        "pair_id": "val00007-NREAD-CHECK-0",
+        "replay_path": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00007-NREAD-CHECK-0/replay.json",
+        "replay_sha256": "c1df1a667ccebbcdc45808a4d7d413f4dc52b4e29a2d6248c1f47a196090e6ba",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/ncontrols_round1.json",
+        "review_sha256": "bd023ee19d2720146edfeb8395da658c732186028733a783996103b50eefa5cc",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+      },
+      "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+    },
+    "val00009-L-CHECK-0": {
+      "family": "L",
+      "review": {
+        "family": "L",
+        "audit_sha256": "fd6d498742e134787ba4d215cee4ca1e1cd86a2ba2010e95a9934da9ffabffba",
+        "initial_condition": "low_light_not_strict_invariance",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "wide",
+        "reason": "Wide view reveals book and exposed sofa seat; near view faces a wall. Lighting necessity is not established.",
+        "both_witnesses_readable": true,
+        "lighting_necessity": "not_established"
+      },
+      "replay": {
+        "pair_id": "val00009-L-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00009-L-CHECK-0/replay.json",
+        "replay_sha256": "234934a443491c83d995b775020aa204d7d37e75cc7e5d2a978b5d27a1a6de5e",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00009-LD-CHECK-0": {
+      "family": "L+D",
+      "review": {
+        "family": "L+D",
+        "audit_sha256": "00479d603f06ffe006936afc954102e6300882290a88137239c06289704f2a01",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "near",
+        "reason": "Bowl identifiable and exposed round table visible.",
+        "initial_condition": "hidden_with_low_light_destination",
+        "lighting_necessity": "not_established",
+        "both_witnesses_readable": true
+      },
+      "replay": {
+        "pair_id": "val00009-LD-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00009-LD-CHECK-0/replay.json",
+        "replay_sha256": "c558edb95df4cbbdb6303d2c4bd0ab2e93feebb1daa0c64536097a3ec2ce97a1",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation. Initial render flag rechecked with four interleaved renders/member: cross-world differences overlap within-world variance; diagnostic artifact retained under artifacts/balanced_initial_variance_v1."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation. Initial render flag rechecked with four interleaved renders/member: cross-world differences overlap within-world variance; diagnostic artifact retained under artifacts/balanced_initial_variance_v1."
+    },
+    "val00010-NREAD-CHECK-0": {
+      "family": "N",
+      "review": {
+        "family": "N",
+        "audit_root": "artifacts/balanced_ncontrols_v4/audit",
+        "audit_sha256": "bde6fb2a4b99647fa72db2b3bc72b2e6e9558fd70fa96211e064fa81854c1fe9",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "start",
+        "reviewed": "actual initial paired RGB frames",
+        "reason": "Derived shared inspection pose makes queried object and exposed region readable at start; no model-score filtering.",
+        "initial_condition": "already readable, repaired initial pose; not original-start performance"
+      },
+      "replay": {
+        "pair_id": "val00010-NREAD-CHECK-0",
+        "replay_path": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00010-NREAD-CHECK-0/replay.json",
+        "replay_sha256": "2a033e92a37f45af0ce9f1f67659187040b09952c4928e8dea51e599deed6cff",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/ncontrols_round1.json",
+        "review_sha256": "bd023ee19d2720146edfeb8395da658c732186028733a783996103b50eefa5cc",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+      },
+      "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+    },
+    "val00011-NREAD-CHECK-0": {
+      "family": "N",
+      "review": {
+        "family": "N",
+        "audit_root": "artifacts/balanced_ncontrols_v4/audit",
+        "audit_sha256": "b05acba37dec3e0d592f2610b9892b10323e09a52273499b059e9c8fa82b4f3b",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "start",
+        "reviewed": "actual initial paired RGB frames",
+        "reason": "Derived shared inspection pose makes queried object and exposed region readable at start; no model-score filtering.",
+        "initial_condition": "already readable, repaired initial pose; not original-start performance"
+      },
+      "replay": {
+        "pair_id": "val00011-NREAD-CHECK-0",
+        "replay_path": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00011-NREAD-CHECK-0/replay.json",
+        "replay_sha256": "33a7587740e87e6a0c6b9bfd7781d9a77b7c9de49b879eec35be1a716e619afb",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/ncontrols_round1.json",
+        "review_sha256": "bd023ee19d2720146edfeb8395da658c732186028733a783996103b50eefa5cc",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+      },
+      "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+    },
+    "val00014-L-CHECK-0": {
+      "family": "L",
+      "review": {
+        "family": "L",
+        "audit_sha256": "27580b49199734cb45147f035ae05b814130ae4bd5ccae0ccc16a511fcc13d7a",
+        "initial_condition": "low_light_not_strict_invariance",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "east",
+        "reason": "Overhead side view distinguishes queried book from the other printed item and covers the table.",
+        "both_witnesses_readable": true,
+        "lighting_necessity": "not_established"
+      },
+      "replay": {
+        "pair_id": "val00014-L-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00014-L-CHECK-0/replay.json",
+        "replay_sha256": "b5418687daffcee85b354437e08168415ca240a259e5f476da6a4b5b38e35ed5",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00015-L-CHECK-0-lampfix": {
+      "family": "L",
+      "review": {
+        "family": "L",
+        "audit_root": "artifacts/balanced_lightfix_v4/audit",
+        "audit_sha256": "55ebfd912cd073bab85a28c4a4f3884eff84b2f3875c60d34668428b5594c94e",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "near",
+        "reviewed": "actual paired contact sheets",
+        "reason": "All lamps off at setup; dark start; bat and whole exposed bed readable after legal actions.",
+        "initial_condition": "lowlight; mandatory light toggle not established"
+      },
+      "replay": {
+        "pair_id": "val00015-L-CHECK-0-lampfix",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-L-CHECK-0-lampfix/replay.json",
+        "replay_sha256": "9048ac18fd454c8330c86b5f26c606385754d9a9ef5acb097e8e9bcaa5f7226f",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/followup_round2.json",
+        "review_sha256": "11d31359dbba34372e7b5de8f2fbd844fd5def87b50e6a378e4b1b1aece04127",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00015-LD-CHECK-0-lampfix": {
+      "family": "L+D",
+      "review": {
+        "family": "L+D",
+        "audit_root": "artifacts/balanced_lightfix_v4/audit",
+        "audit_sha256": "aae835ba3aeff5724b0bfc64a0ee94e4f62afce317193575faa0dbd7fa002472",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "near",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Same corrected lamp state in twins; start outside destination; bat and bed readable after approach and lighting.",
+        "initial_condition": "lowlight; mandatory light toggle not established"
+      },
+      "replay": {
+        "pair_id": "val00015-LD-CHECK-0-lampfix",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-LD-CHECK-0-lampfix/replay.json",
+        "replay_sha256": "071e4de1765d7b709d3c171f879867c232917225d79b1e71bbaf53debce66417",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/followup_round2.json",
+        "review_sha256": "11d31359dbba34372e7b5de8f2fbd844fd5def87b50e6a378e4b1b1aece04127",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00017-NREAD-CHECK-0": {
+      "family": "N",
+      "review": {
+        "family": "N",
+        "audit_root": "artifacts/balanced_ncontrols_v4/audit",
+        "audit_sha256": "2d08e7ac9cbe96cf029f05e88608a3891731d149a4ce329cc89106fd90dec2d7",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "start",
+        "reviewed": "actual initial paired RGB frames",
+        "reason": "Derived shared inspection pose makes queried object and exposed region readable at start; no model-score filtering.",
+        "initial_condition": "already readable, repaired initial pose; not original-start performance"
+      },
+      "replay": {
+        "pair_id": "val00017-NREAD-CHECK-0",
+        "replay_path": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00017-NREAD-CHECK-0/replay.json",
+        "replay_sha256": "48b715f04eba9be339fbdc0f74ea8b8011e9ff8d51f43aa7875586fcbc87e82b",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/ncontrols_round1.json",
+        "review_sha256": "bd023ee19d2720146edfeb8395da658c732186028733a783996103b50eefa5cc",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+      },
+      "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+    },
+    "val00018-L-CHECK-0-lampfix": {
+      "family": "L",
+      "review": {
+        "family": "L",
+        "audit_root": "artifacts/balanced_lightfix_v4/audit",
+        "audit_sha256": "141dc20fa860e36cc788592c04c72aec03bddde727010c7497b0f6b4f83cf569",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "near",
+        "reviewed": "actual paired contact sheets",
+        "reason": "All lamps off at setup; dark start; cellphone and exposed table readable after legal actions.",
+        "initial_condition": "lowlight; mandatory light toggle not established"
+      },
+      "replay": {
+        "pair_id": "val00018-L-CHECK-0-lampfix",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00018-L-CHECK-0-lampfix/replay.json",
+        "replay_sha256": "ec2d5529a01206612c4792092e264d88abff5001775ffc5ea2e84ec54817d125",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/followup_round2.json",
+        "review_sha256": "11d31359dbba34372e7b5de8f2fbd844fd5def87b50e6a378e4b1b1aece04127",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00018-NREAD-CHECK-0": {
+      "family": "N",
+      "review": {
+        "family": "N",
+        "audit_root": "artifacts/balanced_ncontrols_v4/audit",
+        "audit_sha256": "a745b6ad738d656c02db66e1b55e18592934a1c9a0d995fdcbec93c3c013879e",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "start",
+        "reviewed": "actual initial paired RGB frames",
+        "reason": "Derived shared inspection pose makes queried object and exposed region readable at start; no model-score filtering.",
+        "initial_condition": "already readable, repaired initial pose; not original-start performance"
+      },
+      "replay": {
+        "pair_id": "val00018-NREAD-CHECK-0",
+        "replay_path": "artifacts/balanced_ncontrols_v4/replay_v1/pairs/val00018-NREAD-CHECK-0/replay.json",
+        "replay_sha256": "33550c6e3153be8591a6863936a58f09750833f27d7b100c999c867f2fb5bac1",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/ncontrols_round1.json",
+        "review_sha256": "bd023ee19d2720146edfeb8395da658c732186028733a783996103b50eefa5cc",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+      },
+      "initial_condition_note": "Derived shared inspection pose; initial frames visually readable on both members. Separate positive control, not original-start performance."
+    },
+    "val00019-L-CHECK-0": {
+      "family": "L",
+      "review": {
+        "family": "L",
+        "audit_sha256": "4f11a102008f1e07cdeda99c9714ecd7e34a131e48a57cd55e2bec4aad428f11",
+        "initial_condition": "low_light_not_strict_invariance",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "wide",
+        "reason": "Book recognizable on exposed dining table after lighting; wide view covers table surface.",
+        "both_witnesses_readable": true,
+        "lighting_necessity": "not_established"
+      },
+      "replay": {
+        "pair_id": "val00019-L-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00019-L-CHECK-0/replay.json",
+        "replay_sha256": "c28d5d15d6e8eb06104de37dccec06deaae7da67bb20b0d49f20d01454a8be48",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00019-LD-CHECK-0": {
+      "family": "L+D",
+      "review": {
+        "family": "L+D",
+        "audit_sha256": "7acfa8ed59be3371a51c0c542335931d5a93e6ab632dab52ad0a606af793d3e1",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "near",
+        "reason": "Laptop identifiable and exposed bed visible.",
+        "initial_condition": "hidden_with_low_light_destination",
+        "lighting_necessity": "not_established",
+        "both_witnesses_readable": true
+      },
+      "replay": {
+        "pair_id": "val00019-LD-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00019-LD-CHECK-0/replay.json",
+        "replay_sha256": "b2b1770d62336affa5284437e554aed05a559c41d2df878e76291a051c43eec8",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00022-L-CHECK-0": {
+      "family": "L",
+      "review": {
+        "family": "L",
+        "audit_sha256": "a51e89153e7e7df0c6ad5e063a37896a8818b0ff701976203b405cd41d84f46f",
+        "initial_condition": "low_light_not_strict_invariance",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "near",
+        "reason": "Bowl and exposed dresser top readable after lighting.",
+        "both_witnesses_readable": true,
+        "lighting_necessity": "not_established"
+      },
+      "replay": {
+        "pair_id": "val00022-L-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00022-L-CHECK-0/replay.json",
+        "replay_sha256": "ec6f45c37afda578933c6045c33c705cadfe903ba0b7c4d5af855dc58779bfc6",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00027-L-CHECK-0": {
+      "family": "L",
+      "review": {
+        "family": "L",
+        "audit_sha256": "2a038eac830b70c715b7b5424661da59ca4167283a303738d559fbc2e611cba8",
+        "initial_condition": "low_light_not_strict_invariance",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "near",
+        "reason": "Folded newspaper recognizable on exposed armchair seat after lighting.",
+        "both_witnesses_readable": true,
+        "lighting_necessity": "not_established"
+      },
+      "replay": {
+        "pair_id": "val00027-L-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00027-L-CHECK-0/replay.json",
+        "replay_sha256": "d0d625cd716bd83390d2f4ad345d26e8e3990038d93bab9074af7271be2465d6",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00027-LD-CHECK-0": {
+      "family": "L+D",
+      "review": {
+        "family": "L+D",
+        "audit_sha256": "88c57abddb67cbb6b1af7f8661edd383962e5317c5e53702861734de7bfce3ca",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "crouch",
+        "reason": "Folded newspaper readable and full armchair seat visible.",
+        "initial_condition": "hidden_with_low_light_destination",
+        "lighting_necessity": "not_established",
+        "both_witnesses_readable": true
+      },
+      "replay": {
+        "pair_id": "val00027-LD-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00027-LD-CHECK-0/replay.json",
+        "replay_sha256": "89ce53e3b52fa243f402df94297b09795c5cb0f4f2b0664ea54fd5261ad06210",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00033-L-CHECK-0": {
+      "family": "L",
+      "review": {
+        "family": "L",
+        "audit_root": "artifacts/balanced_reserve_v4/audit",
+        "audit_sha256": "690ff46cb8a662eedf4e963335a755179a0ae044394a26ca15d0a76b8fc7271d",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "near",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Printed book recognizable on fully exposed tabletop; initial frame is dark.",
+        "initial_condition": "low_light_not_strict_invariance",
+        "lighting_necessity": "not_established"
+      },
+      "replay": {
+        "pair_id": "val00033-L-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00033-L-CHECK-0/replay.json",
+        "replay_sha256": "67e27aab66952227de466514d34006721cf436dab751d77e75bb3206535f81c5",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/followup_round1.json",
+        "review_sha256": "ad4aef09ca96bffda3adbc6838ad8e33700812d29b82b40368cee07b4142c06e",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00046-LD-CHECK-0": {
+      "family": "L+D",
+      "review": {
+        "family": "L+D",
+        "audit_sha256": "84334ac8eddb82edd5a9d8e30609b222adac6df553ea3518d3391df045965a95",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "near",
+        "reason": "Pillow and full bed readable.",
+        "initial_condition": "hidden",
+        "both_witnesses_readable": true,
+        "lighting_necessity": "not_established"
+      },
+      "replay": {
+        "pair_id": "val00046-LD-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00046-LD-CHECK-0/replay.json",
+        "replay_sha256": "ce56364f35c0ac2fdef34e5147dbbc1e7d6d7bd771fdef1f53a7a7ab39a5f93d",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00049-LD-CHECK-0": {
+      "family": "L+D",
+      "review": {
+        "family": "L+D",
+        "audit_sha256": "b7cb40aa5a3479714a1d49dd0bf60bd2a2fe7a1be023cbc5516de5ffe0881829",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "near",
+        "reason": "Bat shaft visible above bed edge; full bed surface visible.",
+        "initial_condition": "hidden",
+        "both_witnesses_readable": true,
+        "lighting_necessity": "not_established"
+      },
+      "replay": {
+        "pair_id": "val00049-LD-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00049-LD-CHECK-0/replay.json",
+        "replay_sha256": "3a7c508f21ea2c6d8eae5f75f029282dbffdaf0e8a5b1dfbaf62360336da86fd",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00053-LD-CHECK-0": {
+      "family": "L+D",
+      "review": {
+        "family": "L+D",
+        "audit_sha256": "8c85a161075dde049382cfab3fa040b6391f0e495df98b7744da927a84e8403e",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "wide",
+        "reason": "Laptop keyboard recognizable; full bed surface visible.",
+        "initial_condition": "hidden",
+        "both_witnesses_readable": true,
+        "lighting_necessity": "not_established"
+      },
+      "replay": {
+        "pair_id": "val00053-LD-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00053-LD-CHECK-0/replay.json",
+        "replay_sha256": "cb4d9919da8543ab40b84e6f49c5df50bde1400c2efd021e461a449d953e1d56",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    },
+    "val00061-LD-CHECK-0": {
+      "family": "L+D",
+      "review": {
+        "family": "L+D",
+        "audit_sha256": "27e12d99370eef0114ae8a8da51fa6e361bc2c7377e015b7ad8aad5c5e9d0e37",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "near",
+        "reason": "Clock at back of bed recognizable; full bed surface visible.",
+        "initial_condition": "hidden",
+        "both_witnesses_readable": true,
+        "lighting_necessity": "not_established"
+      },
+      "replay": {
+        "pair_id": "val00061-LD-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00061-LD-CHECK-0/replay.json",
+        "replay_sha256": "4c32147d0e4240a0e33d9578592b0ccc9908654ac86104f8bad4d851102b3bca",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+      },
+      "initial_condition_note": "Initial and destination lighting reviewed. Low-light stratum; strict initial image indistinguishability and mandatory Toggle are NOT established. The outside-room rendering shortcut remains a disclosed limitation."
+    }
+  },
+  "selection_sha256": "6f4ceea3f8bfedd06458824735f52f35b78f7a13806266a06f7cd591e11c1caa",
+  "selection_policy": "source house then pair ID, up to ten per family, one house per family; no model outcomes",
+  "limitations": [
+    "Existing validation houses were reused for instrument development, including prior frozen-model diagnostics. This is a development benchmark, not an untouched generalization test.",
+    "L and L+D are low-light strata. Synthetic room-local attenuation can be bypassed by some outside-room views; mandatory lighting actions and zero information in initial RGB are not established.",
+    "N controls use derived shared readable-start poses from existing scenes, and STATE is a separate query axis. Neither enters the equal-family CHECK macro.",
+    "D+door has only three currently valid existing-source pairs; uncertainty is large. O is excluded and L+C/C+C are absent from the historical source pool.",
+    "Task inclusion uses visual semantic review and legal oracle replay, never evaluated-model scores. Fixed routes, masks and timeouts alone are not invalidity criteria. Review is assistant visual inspection, not independent blinded multi-rater annotation.",
+    "Two initial pixel-difference flags overlap within-world renderer variance on repeat checks. These limited tests do not establish absence of every visual or feedback side channel.",
+    "Policy receives current RGB plus textual action/result history, without previous-image memory, under the inspection-v4-dev query-object-reference restriction and uniform hidden budget. This is one specified policy protocol, not a bound on model capability.",
+    "Greedy start-frame, oracle-witness-frame and interactive evaluations are reported separately. Pair correctness alone does not certify evidence acquisition; geometric evidence fields remain proxies.",
+    "The same house can appear in different families. There is one house per pair within each family; pairs across families are not statistically independent.",
+    "No teacher model, training, SFT, new houses, or old-paper thesis validation is part of this run."
+  ],
+  "upstream_sources": {
+    "scripts/replay_balanced_witnesses.py": "179879a04eed60deed4fecfd1f68cff5c89c6e225c56841bcb5bcc3c980d3fba",
+    "epact/__init__.py": "5061b1152e467bead0c0f2e307a861b06bf5f0b2515b73ddd12bfe23910683bf",
+    "epact/actions.py": "9f3ecff05e0e647f1bc2cba6f910e9d3e0fab660df3d156df3769901b80f31f9",
+    "epact/baselines.py": "35fae786e3b40669e88d5338ad33f9566797f00f4f8937e8c1d5a62dcc940fe1",
+    "epact/episode.py": "93a6b194f8e7d27833686a1989ca75c65c0b41725052d08680a7d1825ac44085",
+    "epact/evidence.py": "af81d2caca2b42dc08fb971d3c8bbb7c51fcd3d37305012bd1f9a320322a798b",
+    "epact/generator.py": "1f55230b6c38cc41219cb1a9dab1b2950de48b451ffb382057d51293a4729a59",
+    "epact/inspection.py": "bc9504a95806b5d2a5ebd23ed5fa50920fbf6770167ab2582e1f93c74a6beddf",
+    "epact/pairing.py": "54164ef0ed226df9f1e8527e0370e2d81b06d577bf75ab8a34542e2700401d98",
+    "epact/serialize.py": "671594fad1bbfbe6892cef062058d60ba764072e1bff29b0069ef649d8bf6cce",
+    "epact/sim.py": "b8b1ddd0e6e27d17f3d6f372bc2a217dc833a8499d9ef1ff775e5d522334a01b"
+  },
+  "release_note": "Source checks rebound to the portable checkout. Original values remain in upstream_sources. Scene/task data are unchanged.",
+  "historical_manifest": {
+    "path": "results/epact/recorded/experiments/cd_to_light_20260927/eval/manifest.json",
+    "sha256": "f01c613558f450f48120d3c5918a4b9e48016fd09ebbad94633f204fb54c47a7",
+    "relocation_only": true,
+    "live_reexecution_validated": false
+  },
+  "code_layout": "environment-data-training-evaluation-diagnostics-runtime",
+  "live_reexecution_validated": false
+}

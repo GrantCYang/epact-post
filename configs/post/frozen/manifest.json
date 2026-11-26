@@ -1,0 +1,15 @@
+{
+  "origin": "Recorded POST frozen inputs, unchanged bytes; simulator assets remain external.",
+  "files": [
+    {
+      "path": "pairs_post.jsonl",
+      "bytes": 72187,
+      "sha256": "201f9c13de3fcded22327c8b184e9f47d552e9e16c36d666d463c7276255a2cf"
+    },
+    {
+      "path": "catalog_post.json",
+      "bytes": 349473,
+      "sha256": "976d58d26cb8bae4c699084e39274a1ff15484dc58d587210742f1a993d17ea3"
+    }
+  ]
+}

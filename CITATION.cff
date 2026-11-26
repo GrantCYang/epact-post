@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+type: software
+version: 0.3.1
+repository-code: "https://github.com/GrantCYang/epact-post"
+date-released: 2026-11-26
+message: "Please cite the paper corresponding to the study used."
+title: "EPACT: Vision-Language Agents Can Use Evidence They Cannot Acquire"
+authors:
+  - family-names: Yang
+    given-names: Yixuan
+license: MIT
+preferred-citation:
+  type: unpublished
+  title: "EPACT: Vision-Language Agents Can Use Evidence They Cannot Acquire"
+  authors:
+    - family-names: Yang
+      given-names: Yixuan
+  year: 2026
+references:
+  - type: unpublished
+    title: "POST: Vision-Language Planners Use Stated Body Limits but Rarely Discover Them"
+    authors:
+      - family-names: Yang
+        given-names: Yixuan
+    year: 2026

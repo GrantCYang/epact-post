@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "embodied-evidence-studies"
+version = "0.3.1"
+description = "EPACT and POST: evidence acquisition and use about the world and the body"
+readme = "README.md"
+authors = [{name = "Yixuan Yang"}]
+license = {file = "LICENSE"}
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<3", "Pillow>=10,<14"]
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.8,<4"]
+model = ["transformers==4.57.0", "peft==0.16.0", "accelerate==1.12.0"]
+sim = ["ai2thor==5.0.0"]
+test = ["pytest>=8", "ruff==0.17.0"]
+
+[project.scripts]
+epact = "epact.cli:main"
+post = "post.cli:main"
+evidence = "research_common.evidence:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

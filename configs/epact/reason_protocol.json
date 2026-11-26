@@ -1,0 +1,14 @@
+{
+  "protocol": "inspection-v4-dev",
+  "mode": "reason",
+  "max_new_tokens": 256,
+  "max_steps": 14,
+  "hide_budget": true,
+  "parser": "last matched balanced action object; historical regex retained",
+  "changes": [
+    "explicit task/pair and model identity",
+    "deterministic SHA256 rollout seeds instead of process-randomized Python hash",
+    "refuse stale run identities and malformed episode records"
+  ],
+  "live_reexecution_validated": false
+}

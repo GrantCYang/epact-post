@@ -1,0 +1,113 @@
+{
+  "model": "Qwen3-VL-8B-Instruct",
+  "decoding": "greedy",
+  "pairs": 12,
+  "episodes_per_condition": 24,
+  "scenes": [
+    "FloorPlan13",
+    "FloorPlan17",
+    "FloorPlan2",
+    "FloorPlan5",
+    "FloorPlan6",
+    "FloorPlan7",
+    "FloorPlan8"
+  ],
+  "pairs_by_dimension": {
+    "mu": 4,
+    "legs": 4,
+    "rho": 4
+  },
+  "metric": "Both members must select their respective correct objects. Scripted delivery is secondary.",
+  "cells": {
+    "told_profile": {
+      "episodes": 24,
+      "pair_correct": 0,
+      "pair_correct_by_dimension": {
+        "mu": 0,
+        "legs": 0,
+        "rho": 0
+      },
+      "correct_choices": 12,
+      "scripted_deliveries": 9,
+      "sufficient_evidence_episodes": null,
+      "choices_matching_sufficient_evidence": null,
+      "unparsed_choices": 0,
+      "infrastructure_errors": 0,
+      "actions": {
+        "min": 0,
+        "max": 0,
+        "mean": 0.0
+      }
+    },
+    "told_profile_reasoned": {
+      "episodes": 24,
+      "pair_correct": 7,
+      "pair_correct_by_dimension": {
+        "mu": 3,
+        "legs": 2,
+        "rho": 2
+      },
+      "correct_choices": 19,
+      "scripted_deliveries": 11,
+      "sufficient_evidence_episodes": null,
+      "choices_matching_sufficient_evidence": null,
+      "unparsed_choices": 1,
+      "infrastructure_errors": 0,
+      "actions": {
+        "min": 0,
+        "max": 0,
+        "mean": 0.0
+      }
+    },
+    "checkup_reasoned": {
+      "episodes": 24,
+      "pair_correct": 1,
+      "pair_correct_by_dimension": {
+        "mu": 1,
+        "legs": 0,
+        "rho": 0
+      },
+      "correct_choices": 9,
+      "scripted_deliveries": 6,
+      "sufficient_evidence_episodes": 2,
+      "choices_matching_sufficient_evidence": 2,
+      "unparsed_choices": 2,
+      "infrastructure_errors": 0,
+      "actions": {
+        "min": 6,
+        "max": 12,
+        "mean": 11.4167
+      }
+    },
+    "checkup_watch_reasoned": {
+      "episodes": 24,
+      "pair_correct": 9,
+      "pair_correct_by_dimension": {
+        "mu": 4,
+        "legs": 3,
+        "rho": 2
+      },
+      "correct_choices": 21,
+      "scripted_deliveries": 10,
+      "sufficient_evidence_episodes": 24,
+      "choices_matching_sufficient_evidence": 21,
+      "unparsed_choices": 1,
+      "infrastructure_errors": 0,
+      "actions": {
+        "min": 12,
+        "max": 200,
+        "mean": 76.0417
+      }
+    },
+    "checkup_reasoned_k40": {
+      "episodes": 24,
+      "pair_correct": 0,
+      "correct_choices": 9,
+      "scripted_deliveries": null,
+      "sufficient_evidence_episodes": 2,
+      "invalid_turns": 190,
+      "note": "Scripted delivery not inferred from choice success."
+    }
+  },
+  "completed_through": "2026-10-12"
+}

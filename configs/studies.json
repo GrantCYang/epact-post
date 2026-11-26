@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "studies": {
+    "original": {
+      "title": "Original EPACT benchmark and trajectory SFT",
+      "paper": "paper/main.pdf",
+      "conditions": [
+        "full",
+        "cd-light",
+        "no-open"
+      ],
+      "replay_command": "epact original results --output runs/original.json",
+      "output_fields": "Original benchmark report",
+      "coverage": "Original action-only presets; restored attachment required.",
+      "documentation": "data/README.md",
+      "input_manifest": "configs/epact/reproduction_data.json",
+      "configuration": "configs/epact/experiments.json"
+    },
+    "step0": {
+      "title": "SFT and reasoning elicitation",
+      "paper": "paper/main.pdf",
+      "conditions": [
+        "base_reasoned",
+        "a0_reasoned",
+        "a0_immediate"
+      ],
+      "replay_command": "evidence replay --study epact --out runs/epact.json",
+      "output_fields": "episodes.step0/*",
+      "coverage": "CPU replay and explicit-file evaluation; use step0-* recipes and the train split.",
+      "documentation": "data/README.md",
+      "input_manifest": "data/records/manifest.json",
+      "input_records": "data/records/records.json",
+      "datasets": {
+        "step0/base_reasoned": 40,
+        "step0/a0_reasoned": 40,
+        "step0/a0_immediate": 40
+      },
+      "configuration": "configs/epact/reason_runs.json"
+    },
+    "target": {
+      "title": "RL transfer and SFT seed replication",
+      "paper": "paper/main.pdf",
+      "conditions": [
+        "base",
+        "a0",
+        "a1",
+        "a2",
+        "p",
+        "s2",
+        "s3",
+        "ans"
+      ],
+      "replay_command": "evidence replay --study epact --out runs/epact.json",
+      "output_fields": "target_combined and episodes.target/*",
+      "coverage": "CPU replay and explicit-file evaluation; use target-<policy>-<segment> recipes. RL training orchestration remains archived.",
+      "documentation": "data/README.md",
+      "input_manifest": "data/records/manifest.json",
+      "input_records": "data/records/records.json",
+      "datasets": {
+        "target/base/sega": 64,
+        "target/base/segb": 46,
+        "target/a0/sega": 64,
+        "target/a0/segb": 46,
+        "target/a1/sega": 64,
+        "target/a1/segb": 46,
+        "target/a2/sega": 64,
+        "target/a2/segb": 46,
+        "target/p/sega": 64,
+        "target/p/segb": 46,
+        "target/s2/sega": 64,
+        "target/s2/segb": 46,
+        "target/s3/sega": 64,
+        "target/s3/segb": 46,
+        "target/ans/sega": 64,
+        "target/ans/segb": 46
+      },
+      "configuration": "configs/epact/reason_runs.json"
+    },
+    "failure": {
+      "title": "Witness, egg and toilet failure analysis",
+      "paper": "paper/main.pdf",
+      "conditions": [
+        "witness",
+        "egg_note",
+        "egg",
+        "toilet",
+        "toilet_directive"
+      ],
+      "replay_command": "evidence replay --study epact --out runs/epact.json",
+      "output_fields": "witness and episodes.probe/*",
+      "coverage": "All reported compact scores replayable; live controlled probes use epact diagnose and archived protocol inputs.",
+      "documentation": "data/README.md",
+      "input_manifest": "data/records/manifest.json",
+      "input_records": "data/records/records.json",
+      "datasets": {
+        "probe/toilet": 10,
+        "probe/toilet_directive": 10,
+        "witness": 144,
+        "egg_note": 40,
+        "egg/e1_b_r": 40,
+        "egg/e1_ctx_r": 40,
+        "egg/e1_d_s20261013": 40,
+        "egg/e1_d_s20261014": 40,
+        "egg/e1_d_s20261015": 40,
+        "egg/e1_s_s20261013": 40,
+        "egg/e1_s_s20261014": 40,
+        "egg/e1_s_s20261015": 40
+      }
+    },
+    "post": {
+      "title": "POST body-capability evidence",
+      "paper": "post/paper/main.pdf",
+      "conditions": [
+        "told_profile",
+        "told_profile_reasoned",
+        "checkup_reasoned",
+        "checkup_reasoned_k40",
+        "checkup_watch_reasoned"
+      ],
+      "replay_command": "evidence replay --study post --out runs/post.json",
+      "output_fields": "post",
+      "coverage": "CPU replay and post server/run/report; no relocated GPU/simulator validation.",
+      "documentation": "data/README.md",
+      "input_manifest": "data/records/manifest.json",
+      "input_records": "data/records/records.json",
+      "datasets": {
+        "post/told_profile": 24,
+        "post/told_profile_reasoned": 24,
+        "post/checkup_reasoned": 24,
+        "post/checkup_reasoned_k40": 24,
+        "post/checkup_watch_reasoned": 24
+      },
+      "configuration": "configs/post/frozen/manifest.json"
+    }
+  }
+}

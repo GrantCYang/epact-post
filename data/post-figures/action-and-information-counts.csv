@@ -1,0 +1,8 @@
+condition,episodes,move,rotate,try_lift,put_down,invalid,total_action_turns,feasibility_changing_turns,members_with_feasibility_change,members_with_sufficient_evidence
+
+checkup_reasoned,24,66,131,62,15,14,288,20,12,2
+
+checkup_reasoned_k40,24,159,495,96,20,190,960,19,12,2
+
+checkup_watch_reasoned,24,1305,360,100,60,0,1825,72,24,24
+

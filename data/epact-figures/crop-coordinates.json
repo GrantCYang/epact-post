@@ -1,0 +1,22 @@
+[
+  {
+    "name": "egg-crop",
+    "source": "val00000-C+D-CHECK-0.png",
+    "x": 292,
+    "y": 151,
+    "width": 38,
+    "height": 42,
+    "display_scale": 8,
+    "label": "Recorded egg: pink-beige ovoid"
+  },
+  {
+    "name": "decoy-crop",
+    "source": "val00064-C-CHECK-0-twin.png",
+    "x": 207,
+    "y": 151,
+    "width": 49,
+    "height": 47,
+    "display_scale": 8,
+    "label": "Recorded non-egg distractor: yellow-green ovoid"
+  }
+]

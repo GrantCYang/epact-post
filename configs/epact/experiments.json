@@ -1,0 +1,28 @@
+{
+  "protocol": "original-action-only-sft",
+  "seeds": [
+    20260908,
+    20260922,
+    20261007
+  ],
+  "conditions": {
+    "full": {
+      "directory": "full_promptfix_20260927",
+      "pairs": 87,
+      "rows": 724,
+      "answers": 174
+    },
+    "cd-light": {
+      "directory": "cd_to_light_20260927",
+      "pairs": 43,
+      "rows": 458,
+      "answers": 86
+    },
+    "no-open": {
+      "directory": "no_open_to_container_20260928",
+      "pairs": 69,
+      "rows": 510,
+      "answers": 138
+    }
+  }
+}

@@ -1,0 +1,1 @@
+Note about this environment: eggs are rendered as small plain pink-beige ovoids; yellow-green or red ovoids are fruits or vegetables (apples, potatoes, tomatoes), not eggs.

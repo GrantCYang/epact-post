@@ -1,0 +1,24 @@
+{
+  "cases": {
+    "val00000-C+D-CHECK-0": {
+      "reason_first": {
+        "pred": "no",
+        "answer": "yes"
+      },
+      "class_note": {
+        "pred": "yes",
+        "answer": "yes"
+      }
+    },
+    "val00064-C-CHECK-0-twin": {
+      "reason_first": {
+        "pred": "yes",
+        "answer": "no"
+      },
+      "class_note": {
+        "pred": "no",
+        "answer": "no"
+      }
+    }
+  }
+}

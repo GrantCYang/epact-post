@@ -1,0 +1,185 @@
+\begin{thebibliography}{19}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bai et~al.(2025)Bai, Cai, Chen, Chen, Chen, Cheng, Deng, Ding,
+  et~al.]{bai2025qwen3vl}
+Shuai Bai, Yuxuan Cai, Ruizhe Chen, Keqin Chen, Xionghui Chen, Zesen Cheng,
+  Lianghao Deng, Wei Ding, et~al.
+\newblock {Qwen3-VL} technical report.
+\newblock \emph{arXiv preprint arXiv:2511.21631}, 2025.
+\newblock URL \url{https://arxiv.org/abs/2511.21631}.
+
+\bibitem[Bajcsy(1988)]{bajcsy1988active}
+Ruzena Bajcsy.
+\newblock Active perception.
+\newblock \emph{Proceedings of the IEEE}, 76\penalty0 (8):\penalty0 966--1005,
+  1988.
+\newblock \doi{10.1109/5.5968}.
+\newblock URL \url{https://doi.org/10.1109/5.5968}.
+
+\bibitem[Bohg et~al.(2017)Bohg, Hausman, Sankaran, Brock, Kragic, Schaal, and
+  Sukhatme]{bohg2017interactive}
+Jeannette Bohg, Karol Hausman, Bharath Sankaran, Oliver Brock, Danica Kragic,
+  Stefan Schaal, and Gaurav Sukhatme.
+\newblock Interactive perception: Leveraging action in perception and
+  perception in action.
+\newblock \emph{IEEE Transactions on Robotics}, 33\penalty0 (6):\penalty0
+  1273--1291, 2017.
+\newblock \doi{10.1109/TRO.2017.2721939}.
+\newblock URL \url{https://doi.org/10.1109/TRO.2017.2721939}.
+
+\bibitem[Das et~al.(2018)Das, Datta, Gkioxari, Lee, Parikh, and
+  Batra]{das2018embodied}
+Abhishek Das, Samyak Datta, Georgia Gkioxari, Stefan Lee, Devi Parikh, and
+  Dhruv Batra.
+\newblock Embodied question answering.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, pp.\  1--10, 2018.
+\newblock URL
+  \url{https://openaccess.thecvf.com/content_cvpr_2018/html/Das_Embodied_Question_Answering_CVPR_2018_paper.html}.
+
+\bibitem[Deitke et~al.(2022)Deitke, VanderBilt, Herrasti, Weihs, Salvador,
+  Ehsani, Han, Kolve, et~al.]{deitke2022procthor}
+Matt Deitke, Eli VanderBilt, Alvaro Herrasti, Luca Weihs, Jordi Salvador, Kiana
+  Ehsani, Winson Han, Eric Kolve, et~al.
+\newblock {ProcTHOR}: Large-scale embodied {AI} using procedural generation.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~35, pp.\  5982--5994, 2022.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2022/hash/27c546ab1e4f1d7d638e6a8dfbad9a07-Abstract-Conference.html}.
+
+\bibitem[Garg et~al.(2026)Garg, Pandey, Rawal, Khandelwal, and
+  Sheth]{garg2026answering}
+Shubh Garg, Divyansh Pandey, Niyati Rawal, Vedant Khandelwal, and Amit Sheth.
+\newblock Answering without arriving: An evidence audit for embodied question
+  answering.
+\newblock \emph{arXiv preprint arXiv:2611.01958}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2611.01958}.
+
+\bibitem[Gordon et~al.(2018)Gordon, Kembhavi, Rastegari, Redmon, Fox, and
+  Farhadi]{gordon2018iqa}
+Daniel Gordon, Aniruddha Kembhavi, Mohammad Rastegari, Joseph Redmon, Dieter
+  Fox, and Ali Farhadi.
+\newblock {IQA}: Visual question answering in interactive environments.
+\newblock In \emph{Proceedings of the IEEE Conference on Computer Vision and
+  Pattern Recognition (CVPR)}, pp.\  4089--4098, 2018.
+\newblock URL
+  \url{https://openaccess.thecvf.com/content_cvpr_2018/html/Gordon_IQA_Visual_Question_CVPR_2018_paper.html}.
+
+\bibitem[Hong et~al.(2026)Hong, Liu, Yin, Li, Guibas, Li, Wu, and
+  Choi]{hong2026esibench}
+Yining Hong, Jiageng Liu, Han Yin, Manling Li, Leonidas Guibas, Fei-Fei Li,
+  Jiajun Wu, and Yejin Choi.
+\newblock {ESI-Bench}: Towards embodied spatial intelligence that closes the
+  perception-action loop.
+\newblock \emph{arXiv preprint arXiv:2605.18746}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2605.18746}.
+
+\bibitem[Hu et~al.(2022)Hu, Shen, Wallis, Allen-Zhu, Li, Wang, Wang, and
+  Chen]{hu2022lora}
+Edward~J. Hu, Yelong Shen, Phillip Wallis, Zeyuan Allen-Zhu, Yuanzhi Li, Shean
+  Wang, Lu~Wang, and Weizhu Chen.
+\newblock {LoRA}: Low-rank adaptation of large language models.
+\newblock In \emph{International Conference on Learning Representations}, 2022.
+\newblock URL \url{https://openreview.net/forum?id=nZeVKeeFYf9}.
+
+\bibitem[Kolve et~al.(2017)Kolve, Mottaghi, Han, VanderBilt, Weihs, Herrasti,
+  Deitke, Ehsani, et~al.]{kolve2017ai2thor}
+Eric Kolve, Roozbeh Mottaghi, Winson Han, Eli VanderBilt, Luca Weihs, Alvaro
+  Herrasti, Matt Deitke, Kiana Ehsani, et~al.
+\newblock {AI2-THOR}: An interactive {3D} environment for visual {AI}.
+\newblock \emph{arXiv preprint arXiv:1712.05474}, 2017.
+\newblock URL \url{https://arxiv.org/abs/1712.05474}.
+
+\bibitem[Li et~al.(2026)Li, Cao, Xiao, Bai, and Karlsson]{li2026eviseek}
+Jintao Li, Zhiyong Cao, Baihua Xiao, Yu~Bai, and B{\"o}rje~F. Karlsson.
+\newblock {EviSeek}: An evidence-centric agentic framework for embodied active
+  information seeking.
+\newblock \emph{arXiv preprint arXiv:2611.06434}, 2026.
+\newblock URL \url{https://arxiv.org/abs/2611.06434}.
+
+\bibitem[Li et~al.(2024)Li, Zhao, Wang, Wang, Zhou, Srivastava, Gokmen, Lee,
+  et~al.]{li2024embodied}
+Manling Li, Shiyu Zhao, Qineng Wang, Kangrui Wang, Yu~Zhou, Sanjana Srivastava,
+  Cem Gokmen, Tony Lee, et~al.
+\newblock {Embodied Agent Interface}: Benchmarking {LLM}s for embodied decision
+  making.
+\newblock In \emph{Advances in Neural Information Processing Systems},
+  volume~37, pp.\  100428--100534, 2024.
+\newblock URL
+  \url{https://proceedings.neurips.cc/paper_files/paper/2024/hash/b631da756d1573c24c9ba9c702fde5a9-Abstract.html}.
+\newblock Datasets and Benchmarks Track.
+
+\bibitem[Majumdar et~al.(2024)Majumdar, Ajay, Zhang, Putta, Yenamandra, Henaff,
+  Silwal, Mcvay, et~al.]{majumdar2024openeqa}
+Arjun Majumdar, Anurag Ajay, Xiaohan Zhang, Pranav Putta, Sriram Yenamandra,
+  Mikael Henaff, Sneha Silwal, Paul Mcvay, et~al.
+\newblock {OpenEQA}: Embodied question answering in the era of foundation
+  models.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition (CVPR)}, pp.\  16488--16498, 2024.
+\newblock URL
+  \url{https://openaccess.thecvf.com/content/CVPR2024/html/Majumdar_OpenEQA_Embodied_Question_Answering_in_the_Era_of_Foundation_Models_CVPR_2024_paper.html}.
+
+\bibitem[Ren et~al.(2024)Ren, Clark, Dixit, Itkina, Majumdar, and
+  Sadigh]{ren2024explore}
+Allen~Z. Ren, Jaden Clark, Anushri Dixit, Masha Itkina, Anirudha Majumdar, and
+  Dorsa Sadigh.
+\newblock Explore until confident: Efficient exploration for embodied question
+  answering.
+\newblock In \emph{Robotics: Science and Systems}, 2024.
+\newblock \doi{10.15607/RSS.2024.XX.089}.
+\newblock URL \url{https://roboticsproceedings.org/rss20/p089.html}.
+
+\bibitem[Ross et~al.(2011)Ross, Gordon, and Bagnell]{ross2011reduction}
+St{\'e}phane Ross, Geoffrey Gordon, and Drew Bagnell.
+\newblock A reduction of imitation learning and structured prediction to
+  no-regret online learning.
+\newblock In \emph{Proceedings of the Fourteenth International Conference on
+  Artificial Intelligence and Statistics (AISTATS)}, volume~15 of
+  \emph{Proceedings of Machine Learning Research}, pp.\  627--635, 2011.
+\newblock URL \url{https://proceedings.mlr.press/v15/ross11a.html}.
+
+\bibitem[Shao et~al.(2024)Shao, Wang, Zhu, Xu, Song, Bi, Zhang, Zhang,
+  et~al.]{shao2024deepseekmath}
+Zhihong Shao, Peiyi Wang, Qihao Zhu, Runxin Xu, Junxiao Song, Xiao Bi, Haowei
+  Zhang, Mingchuan Zhang, et~al.
+\newblock {DeepSeekMath}: Pushing the limits of mathematical reasoning in open
+  language models.
+\newblock \emph{arXiv preprint arXiv:2402.03300}, 2024.
+\newblock URL \url{https://arxiv.org/abs/2402.03300}.
+
+\bibitem[Shridhar et~al.(2020)Shridhar, Thomason, Gordon, Bisk, Han, Mottaghi,
+  Zettlemoyer, and Fox]{shridhar2020alfred}
+Mohit Shridhar, Jesse Thomason, Daniel Gordon, Yonatan Bisk, Winson Han,
+  Roozbeh Mottaghi, Luke Zettlemoyer, and Dieter Fox.
+\newblock {ALFRED}: A benchmark for interpreting grounded instructions for
+  everyday tasks.
+\newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision
+  and Pattern Recognition (CVPR)}, pp.\  10740--10749, 2020.
+\newblock URL
+  \url{https://openaccess.thecvf.com/content_CVPR_2020/html/Shridhar_ALFRED_A_Benchmark_for_Interpreting_Grounded_Instructions_for_Everyday_Tasks_CVPR_2020_paper.html}.
+
+\bibitem[Yang et~al.(2025)Yang, Chen, Zhang, Zhao, Qian, Wang, Wang, Koripella,
+  et~al.]{yang2025embodiedbench}
+Rui Yang, Hanyang Chen, Junyu Zhang, Mark Zhao, Cheng Qian, Kangrui Wang,
+  Qineng Wang, Teja~Venkat Koripella, et~al.
+\newblock {EmbodiedBench}: Comprehensive benchmarking multi-modal large
+  language models for vision-driven embodied agents.
+\newblock In \emph{International Conference on Machine Learning}, volume 267 of
+  \emph{Proceedings of Machine Learning Research}, pp.\  70576--70631, 2025.
+\newblock URL \url{https://proceedings.mlr.press/v267/yang25f.html}.
+
+\bibitem[Yao et~al.(2023)Yao, Zhao, Yu, Du, Shafran, Narasimhan, and
+  Cao]{yao2023react}
+Shunyu Yao, Jeffrey Zhao, Dian Yu, Nan Du, Izhak Shafran, Karthik Narasimhan,
+  and Yuan Cao.
+\newblock {ReAct}: Synergizing reasoning and acting in language models.
+\newblock In \emph{International Conference on Learning Representations}, 2023.
+\newblock URL \url{https://openreview.net/forum?id=WE_vluYUL-X}.
+
+\end{thebibliography}

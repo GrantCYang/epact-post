@@ -1,0 +1,988 @@
+{
+  "protocol": "inspection-v4-dev",
+  "scope": "Open-unsupervised SFT transfer: C primary, C+D composition; original frozen interface and houses.",
+  "eligibility": "Human-reviewed paired witnesses and replayed legal oracle routes; no model-score filtering. Existing validation houses reused for instrument development; not an untouched holdout.",
+  "visually_reviewed": true,
+  "pair_ids": [
+    "val00000-C+D-CHECK-0",
+    "val00000-C-CHECK-0",
+    "val00004-C+D-CHECK-0",
+    "val00010-C+D-CHECK-0",
+    "val00015-C+D-CHECK-0",
+    "val00016-C+D-CHECK-0",
+    "val00016-C-CHECK-0",
+    "val00036-C+D-CHECK-0",
+    "val00039-C+D-CHECK-0",
+    "val00051-C+D-CHECK-0",
+    "val00051-C-CHECK-0",
+    "val00052-C+D-CHECK-0",
+    "val00053-C+D-CHECK-0",
+    "val00064-C-CHECK-0",
+    "val00075-C-CHECK-1",
+    "val00076-C-CHECK-0",
+    "val00084-C-CHECK-0",
+    "val00096-C-CHECK-0",
+    "val00103-C-CHECK-0",
+    "val00109-C-CHECK-0"
+  ],
+  "data_sha256": "9bd0db0a56bff362c0a1033a41b268d9af3ae58d8532897ab48a9dc8f9b43416",
+  "data_root": "artifacts/balanced_eval_v4_frozen_v1/data",
+  "scene_dataset_sha256": "d808540514e26b6726cd2790490e669b572eeb94febb5188a2f403591dd21721",
+  "observations": {
+    "val00000-C+D-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-C+D-CHECK-0/val00000-C+D-CHECK-0__start.png",
+        "image_sha256": "8960549222f28b63e630b8da0a6095c5f49ded72b2b99d2879ced65858ed85e0"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-C+D-CHECK-0/val00000-C+D-CHECK-0__witness.png",
+        "image_sha256": "9f3ef235b5e84d9a339fc3d7759199dfaed054c62856f3dee898e4f35b35e18b"
+      }
+    },
+    "val00000-C+D-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-C+D-CHECK-0/val00000-C+D-CHECK-0-twin__start.png",
+        "image_sha256": "94c5544dfc153ac0a3a431ff33dfbb61f01dbb4676bc185b4ca1201ed0c48027"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-C+D-CHECK-0/val00000-C+D-CHECK-0-twin__witness.png",
+        "image_sha256": "2cbbc3e867cbd502747acb8ff9ab59f1bb1988464f15fc414d17f1eb1476a722"
+      }
+    },
+    "val00000-C-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-C-CHECK-0/val00000-C-CHECK-0__start.png",
+        "image_sha256": "464d78726ce04a5bc92bef17d9313aab83b5832b4f19a9887ab0e8a813f8142e"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-C-CHECK-0/val00000-C-CHECK-0__witness.png",
+        "image_sha256": "9f3ef235b5e84d9a339fc3d7759199dfaed054c62856f3dee898e4f35b35e18b"
+      }
+    },
+    "val00000-C-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-C-CHECK-0/val00000-C-CHECK-0-twin__start.png",
+        "image_sha256": "2d54ec5b1fd62dd215d66156f603e02ec92153540e6e1a8887ac3281cbc744b2"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-C-CHECK-0/val00000-C-CHECK-0-twin__witness.png",
+        "image_sha256": "cf3c442713ac41332df33b63036fbb73566c0a06a54fb58ca1a12b733abde452"
+      }
+    },
+    "val00004-C+D-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00004-C+D-CHECK-0/val00004-C+D-CHECK-0__start.png",
+        "image_sha256": "3f6615cc4d324c6b6281bd48b918bc0a2008bcc24ed178006e555d24e4278b88"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00004-C+D-CHECK-0/val00004-C+D-CHECK-0__witness.png",
+        "image_sha256": "09c131fc0ea5d94ea00f6fabc80cc987ddb24b5926454bafc61a363afc48d6c1"
+      }
+    },
+    "val00004-C+D-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00004-C+D-CHECK-0/val00004-C+D-CHECK-0-twin__start.png",
+        "image_sha256": "8d509ae0afe086b3c0647c35907908db8246504805719b6eab47165894e563cb"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00004-C+D-CHECK-0/val00004-C+D-CHECK-0-twin__witness.png",
+        "image_sha256": "005a1eaa2b7572ea6ea7abbcdd00b948e81db52547f7aa5c8c123807669d66dd"
+      }
+    },
+    "val00010-C+D-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00010-C+D-CHECK-0/val00010-C+D-CHECK-0__start.png",
+        "image_sha256": "050bb359c49f9dd3e8a786c2208a983787ee9159083b697e577f7ee5665b08c6"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00010-C+D-CHECK-0/val00010-C+D-CHECK-0__witness.png",
+        "image_sha256": "3869e266f33902c91835540d6bb5ff9ced9c393187b3b8cba30cb92de33ccdb1"
+      }
+    },
+    "val00010-C+D-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00010-C+D-CHECK-0/val00010-C+D-CHECK-0-twin__start.png",
+        "image_sha256": "ff6d27cda3c56d9c09a7067e821ed66807b36fd77bdd361d296a62d7b9ee98ab"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00010-C+D-CHECK-0/val00010-C+D-CHECK-0-twin__witness.png",
+        "image_sha256": "c3531f2b5c190cf2b4d3ef00441e068cccfc291e10d9d830713d3c45611e2e96"
+      }
+    },
+    "val00015-C+D-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-C+D-CHECK-0/val00015-C+D-CHECK-0__start.png",
+        "image_sha256": "3bc39b97734b321f2d7a37734ceee02070ebb12d38b040cef066b67e7c29a0b6"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-C+D-CHECK-0/val00015-C+D-CHECK-0__witness.png",
+        "image_sha256": "914b046fab6d1115a82fb416a9dae425a996e686a42af7568ebe59445574a20b"
+      }
+    },
+    "val00015-C+D-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-C+D-CHECK-0/val00015-C+D-CHECK-0-twin__start.png",
+        "image_sha256": "4ff9e8b500868a4f32d354c00d1c4fcb6d5d52bdc31592419f2f7cfaf39b3330"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-C+D-CHECK-0/val00015-C+D-CHECK-0-twin__witness.png",
+        "image_sha256": "e8511a21f9132737191fc87b6cdcd3a0056dceac7e1694de996f7dfd5164c3f3"
+      }
+    },
+    "val00016-C+D-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00016-C+D-CHECK-0/val00016-C+D-CHECK-0__start.png",
+        "image_sha256": "6b02265e2367359d554c4a3a4ed2a3818f921c6ac66c28126fe924021606ec2a"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00016-C+D-CHECK-0/val00016-C+D-CHECK-0__witness.png",
+        "image_sha256": "bf3b45370efbf056da8078f9d8cb7650094142a5aefd852a07ca8b32f177e2d8"
+      }
+    },
+    "val00016-C+D-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00016-C+D-CHECK-0/val00016-C+D-CHECK-0-twin__start.png",
+        "image_sha256": "6b02265e2367359d554c4a3a4ed2a3818f921c6ac66c28126fe924021606ec2a"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00016-C+D-CHECK-0/val00016-C+D-CHECK-0-twin__witness.png",
+        "image_sha256": "5da2b3534786db8f19eb7f2785583b36a00593ff8e1c822f72835241f74250ae"
+      }
+    },
+    "val00016-C-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00016-C-CHECK-0/val00016-C-CHECK-0__start.png",
+        "image_sha256": "10c42e63aaa9c5702026a197e562304af5939409276524098c47fad5973e01ca"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00016-C-CHECK-0/val00016-C-CHECK-0__witness.png",
+        "image_sha256": "bf3b45370efbf056da8078f9d8cb7650094142a5aefd852a07ca8b32f177e2d8"
+      }
+    },
+    "val00016-C-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00016-C-CHECK-0/val00016-C-CHECK-0-twin__start.png",
+        "image_sha256": "10c42e63aaa9c5702026a197e562304af5939409276524098c47fad5973e01ca"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00016-C-CHECK-0/val00016-C-CHECK-0-twin__witness.png",
+        "image_sha256": "5da2b3534786db8f19eb7f2785583b36a00593ff8e1c822f72835241f74250ae"
+      }
+    },
+    "val00036-C+D-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00036-C+D-CHECK-0/val00036-C+D-CHECK-0__start.png",
+        "image_sha256": "92b82c5664d83719980c222a7721d3ecf3ebb685f99da0ed3c578029308ecbca"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00036-C+D-CHECK-0/val00036-C+D-CHECK-0__witness.png",
+        "image_sha256": "847d6e293565462ab491f6c15a0f78cf6a5ea60ac73eae72ea8761ddc967bd0e"
+      }
+    },
+    "val00036-C+D-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00036-C+D-CHECK-0/val00036-C+D-CHECK-0-twin__start.png",
+        "image_sha256": "561918d54fa0af2ef8125e6e0e71a4dbd92c3e1d4f7fc2f9a3626b461ddd5342"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00036-C+D-CHECK-0/val00036-C+D-CHECK-0-twin__witness.png",
+        "image_sha256": "819e9c1e069ee6c660bdea2542344f2d3dad39d80fa08930f63c6e4ec1863ed0"
+      }
+    },
+    "val00039-C+D-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00039-C+D-CHECK-0/val00039-C+D-CHECK-0__start.png",
+        "image_sha256": "4aa89c495954fbf3e16d165865d4ae118706c21ae703f576e86b8e7e90a68d5f"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00039-C+D-CHECK-0/val00039-C+D-CHECK-0__witness.png",
+        "image_sha256": "dcdcb62a7069a4a104fd3aed349a5949fb5928cfd088e27dc95531f8062f2110"
+      }
+    },
+    "val00039-C+D-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00039-C+D-CHECK-0/val00039-C+D-CHECK-0-twin__start.png",
+        "image_sha256": "634f803f6b526a7a2e87ba441eb719dfa75e460c5003db45ea4a51d71ec2a4f0"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00039-C+D-CHECK-0/val00039-C+D-CHECK-0-twin__witness.png",
+        "image_sha256": "3cd8f0a033e41e31a647f1d03777720c087da0c38bffdaa9a1ffad7dbe8a5d52"
+      }
+    },
+    "val00051-C+D-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00051-C+D-CHECK-0/val00051-C+D-CHECK-0__start.png",
+        "image_sha256": "1ff00d011f4766e7339a92d4d69103908f62c52fc21972724f7ea3e163b6dc1f"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00051-C+D-CHECK-0/val00051-C+D-CHECK-0__witness.png",
+        "image_sha256": "886cecd0a85d3f6fa1dfb379bfb2a043bdc00ab37b638210250cb0bd1c3f5f11"
+      }
+    },
+    "val00051-C+D-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00051-C+D-CHECK-0/val00051-C+D-CHECK-0-twin__start.png",
+        "image_sha256": "b63079d6ea2739e1789b8579654514bafde3c19716b5b45f6f85bd72b3e52a40"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00051-C+D-CHECK-0/val00051-C+D-CHECK-0-twin__witness.png",
+        "image_sha256": "c96075f0510d53233d61247cdd12bf8db16bea732b3f68b10e2fe6281278c62d"
+      }
+    },
+    "val00051-C-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00051-C-CHECK-0/val00051-C-CHECK-0__start.png",
+        "image_sha256": "80d54e53dcbb8e0559e49040c1834edb551159bb4c47b6c7758ad8f9ffd5ad69"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00051-C-CHECK-0/val00051-C-CHECK-0__witness.png",
+        "image_sha256": "886cecd0a85d3f6fa1dfb379bfb2a043bdc00ab37b638210250cb0bd1c3f5f11"
+      }
+    },
+    "val00051-C-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00051-C-CHECK-0/val00051-C-CHECK-0-twin__start.png",
+        "image_sha256": "894d3a33f521aae8dab57c913bc9ff292ced7356156b83263091b6b79a5590f5"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00051-C-CHECK-0/val00051-C-CHECK-0-twin__witness.png",
+        "image_sha256": "97956fe07951b93620d761151e466151eea80a33e04b55882e87ece317ceca1e"
+      }
+    },
+    "val00052-C+D-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00052-C+D-CHECK-0/val00052-C+D-CHECK-0__start.png",
+        "image_sha256": "c3db6dad501a255f8603d5643ac28425d0a4b3fa680a9697a85f7e4cd655399d"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00052-C+D-CHECK-0/val00052-C+D-CHECK-0__witness.png",
+        "image_sha256": "eea1262b50b1b7d6c5f6aee23af74c143c26c0b59269fe65f419f4b59bea9a71"
+      }
+    },
+    "val00052-C+D-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00052-C+D-CHECK-0/val00052-C+D-CHECK-0-twin__start.png",
+        "image_sha256": "6598661407c776936d4dec6771aab6ad098283e22a7fb6575fcecf1b4dff314a"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00052-C+D-CHECK-0/val00052-C+D-CHECK-0-twin__witness.png",
+        "image_sha256": "8c869f21cc8f176647cca0bfea0a6ab6652c5aacfd077cd38885d90062f79ae7"
+      }
+    },
+    "val00053-C+D-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00053-C+D-CHECK-0/val00053-C+D-CHECK-0__start.png",
+        "image_sha256": "c6f4dd855dbdeac47b441e6943948b7f25cd008b1ab15ecf1e72ee546b02a9f6"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00053-C+D-CHECK-0/val00053-C+D-CHECK-0__witness.png",
+        "image_sha256": "cfa8edc6288fef8c09297295fab69ce6611aaf8d434419370839a2f52cf362dd"
+      }
+    },
+    "val00053-C+D-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00053-C+D-CHECK-0/val00053-C+D-CHECK-0-twin__start.png",
+        "image_sha256": "fdccc24943512967cd80ee0b7c6e698584c781e22a893212ecc11dbd5071f6f9"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00053-C+D-CHECK-0/val00053-C+D-CHECK-0-twin__witness.png",
+        "image_sha256": "9c485a4793b203871710aa8763d551efcc571490e5c590ade5406b52dfc7a9ab"
+      }
+    },
+    "val00064-C-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00064-C-CHECK-0/val00064-C-CHECK-0__start.png",
+        "image_sha256": "bb6e30117f0541a568e5c6ccd9998af9876bb9ff200ca5b3d56f85933b4a807a"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00064-C-CHECK-0/val00064-C-CHECK-0__witness.png",
+        "image_sha256": "50dfe526138d5969eca0d75881dc844caf6d1c89a8a7f89b7d8c1f8661d349a8"
+      }
+    },
+    "val00064-C-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00064-C-CHECK-0/val00064-C-CHECK-0-twin__start.png",
+        "image_sha256": "bb6e30117f0541a568e5c6ccd9998af9876bb9ff200ca5b3d56f85933b4a807a"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00064-C-CHECK-0/val00064-C-CHECK-0-twin__witness.png",
+        "image_sha256": "f5df1c99b6d9caefc7989bbf473ac62dda88d7a7149c4873efffbfd38731a566"
+      }
+    },
+    "val00075-C-CHECK-1": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00075-C-CHECK-1/val00075-C-CHECK-1__start.png",
+        "image_sha256": "7946759fd24ae741e4a82cdae07fbc042918ffc2e11374133256d1012343d29e"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00075-C-CHECK-1/val00075-C-CHECK-1__witness.png",
+        "image_sha256": "d1962e600351fd737f3b99a83f55e961a0491d632a51160d8f660dae3960a1d6"
+      }
+    },
+    "val00075-C-CHECK-1-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00075-C-CHECK-1/val00075-C-CHECK-1-twin__start.png",
+        "image_sha256": "837b409eae76da140972e29df3ba09fb0a8aeae84a34a88e76a22afdaca0b2be"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00075-C-CHECK-1/val00075-C-CHECK-1-twin__witness.png",
+        "image_sha256": "89cd6a6f65d0d744f5a070dd5653dac045016ba58f10db14355fd0758d70bb33"
+      }
+    },
+    "val00076-C-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00076-C-CHECK-0/val00076-C-CHECK-0__start.png",
+        "image_sha256": "03e4415ae757af0906aa1998ea26337739b5b6d0a610e6859057ab5d3a182d52"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00076-C-CHECK-0/val00076-C-CHECK-0__witness.png",
+        "image_sha256": "740d8eec2c6cc8f4f80ce0627e84cf6cefcaf0aba56da97dce717f0db6f1f1b6"
+      }
+    },
+    "val00076-C-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00076-C-CHECK-0/val00076-C-CHECK-0-twin__start.png",
+        "image_sha256": "b57dd98ca8082f72d38fbbce26f2347a01c211a68a1d61cd3f926535ba73208e"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00076-C-CHECK-0/val00076-C-CHECK-0-twin__witness.png",
+        "image_sha256": "35dd377b41dd69304bee7004e9d3d4be276ad67356d700e493d7ff688ce5e006"
+      }
+    },
+    "val00084-C-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00084-C-CHECK-0/val00084-C-CHECK-0__start.png",
+        "image_sha256": "b2c977bb4e5065f5ca9a7857a43d4f4f26ac52d5a42656655df7ee524000413c"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00084-C-CHECK-0/val00084-C-CHECK-0__witness.png",
+        "image_sha256": "4d9497139bf0b12ab05715ab437ae88ac3b00ad4cafb964e0e578b3b3ded9baa"
+      }
+    },
+    "val00084-C-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00084-C-CHECK-0/val00084-C-CHECK-0-twin__start.png",
+        "image_sha256": "b2c977bb4e5065f5ca9a7857a43d4f4f26ac52d5a42656655df7ee524000413c"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_v1/pairs/val00084-C-CHECK-0/val00084-C-CHECK-0-twin__witness.png",
+        "image_sha256": "3ac0fa755b2325d6db4b2cfa8df7596e46b1ec98ec7956bda96701aef71c3bd3"
+      }
+    },
+    "val00096-C-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00096-C-CHECK-0/val00096-C-CHECK-0__start.png",
+        "image_sha256": "412e45a17cfe78cf914463493cf71c4f93ed9effdcd4369dfd195f527879d875"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00096-C-CHECK-0/val00096-C-CHECK-0__witness.png",
+        "image_sha256": "7b80cbdc5ae509796ceee325c6a25d0c967a4c5b0773404c37941a856bf5559c"
+      }
+    },
+    "val00096-C-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00096-C-CHECK-0/val00096-C-CHECK-0-twin__start.png",
+        "image_sha256": "412e45a17cfe78cf914463493cf71c4f93ed9effdcd4369dfd195f527879d875"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00096-C-CHECK-0/val00096-C-CHECK-0-twin__witness.png",
+        "image_sha256": "703efd608dfe10504fd623239ed12c4bfed41ba55a119dc9fd41b16840f52d11"
+      }
+    },
+    "val00103-C-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00103-C-CHECK-0/val00103-C-CHECK-0__start.png",
+        "image_sha256": "0362543caa56384867cda5e847f764491e87de2bc2a2ca0117db3278c9a010b0"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00103-C-CHECK-0/val00103-C-CHECK-0__witness.png",
+        "image_sha256": "c4096e1f762a1dd67389a1c563ef94855da1bad509f59a98dba58942309af0cb"
+      }
+    },
+    "val00103-C-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00103-C-CHECK-0/val00103-C-CHECK-0-twin__start.png",
+        "image_sha256": "0362543caa56384867cda5e847f764491e87de2bc2a2ca0117db3278c9a010b0"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00103-C-CHECK-0/val00103-C-CHECK-0-twin__witness.png",
+        "image_sha256": "bcf20bddabe1dd7fc318b92e190b4d1a8039873ef772dccb875645235f0cf0d1"
+      }
+    },
+    "val00109-C-CHECK-0": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00109-C-CHECK-0/val00109-C-CHECK-0__start.png",
+        "image_sha256": "3145cb33b641a8fae50767d9485c6de89ae35ab85841e7e1db30af7f10405620"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00109-C-CHECK-0/val00109-C-CHECK-0__witness.png",
+        "image_sha256": "ac6a83ce7e3ba02b4b1ac20e05c07b441919e4185f3c40b894a6bc2461c02ec5"
+      }
+    },
+    "val00109-C-CHECK-0-twin": {
+      "start": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00109-C-CHECK-0/val00109-C-CHECK-0-twin__start.png",
+        "image_sha256": "3145cb33b641a8fae50767d9485c6de89ae35ab85841e7e1db30af7f10405620"
+      },
+      "witness": {
+        "image": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00109-C-CHECK-0/val00109-C-CHECK-0-twin__witness.png",
+        "image_sha256": "13e85a397730d6d53770b642aa0a82fb9e0f78de20a3383daacf78d497972c8b"
+      }
+    }
+  },
+  "family_counts": {
+    "C+D": 10,
+    "C": 10
+  },
+  "pair_notes": {
+    "val00000-C+D-CHECK-0": {
+      "family": "C+D",
+      "review": {
+        "family": "C+D",
+        "audit_sha256": "50400e244499db4053392916f13e5ccd39554252c9cf9d3e95cbe9a56575a28b",
+        "initial_condition": "hidden",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "near",
+        "reason": "Eggs and exposed refrigerator shelves readable after navigation and opening.",
+        "both_witnesses_readable": true
+      },
+      "replay": {
+        "pair_id": "val00000-C+D-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-C+D-CHECK-0/replay.json",
+        "replay_sha256": "76a3158d47a6bc9c0d0e3db2effa4c9d8911493e7c80c8a55d1ed4fa218dae59",
+        "replay_visually_reviewed": true,
+        "reason": "Actual replay preserves recognizable target and sufficiently exposed query region in both members.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00000-C-CHECK-0": {
+      "family": "C",
+      "review": {
+        "family": "C",
+        "audit_sha256": "f0e20dd86f477f192eb9032f8071a3c2aa2a468f7a0c25b4930a3f74b48d7714",
+        "initial_condition": "hidden",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "near",
+        "reason": "Eggs recognizable on exposed shelves; paired near view covers the opened fridge interior.",
+        "both_witnesses_readable": true
+      },
+      "replay": {
+        "pair_id": "val00000-C-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00000-C-CHECK-0/replay.json",
+        "replay_sha256": "036e5bae0ac20d3e25b48ec426231d45b4dc70d5a380cb94c5e7954ac97773fd",
+        "replay_visually_reviewed": true,
+        "reason": "Actual replay witnesses preserve recognizable target and full exposed fridge interior in both members.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00004-C+D-CHECK-0": {
+      "family": "C+D",
+      "review": {
+        "family": "C+D",
+        "audit_root": "artifacts/balanced_existing_v4/rescue_v2",
+        "audit_sha256": "d8f33e495094dec8f2679e8d963bda60ba14dfe26adcdb59fc5cf359815b5282",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "opened__north_wide",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Frontal fridge interior and recognizable eggs; alternate route resolves original door obstruction.",
+        "initial_condition": "hidden"
+      },
+      "replay": {
+        "pair_id": "val00004-C+D-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00004-C+D-CHECK-0/replay.json",
+        "replay_sha256": "f72c2267272d42755256ea9bbdf7de44dd3301257ebc5e4b4f16692779539b25",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/followup_round2.json",
+        "review_sha256": "11d31359dbba34372e7b5de8f2fbd844fd5def87b50e6a378e4b1b1aece04127",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00010-C+D-CHECK-0": {
+      "family": "C+D",
+      "review": {
+        "family": "C+D",
+        "audit_root": "artifacts/balanced_existing_v4/rescue_v2",
+        "audit_sha256": "537e770a7edab849b8b4a753dc122b1247aae602a505c639125f0f130d264e0e",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "opened__south_wide",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Frontal fridge interior and recognizable eggs; legal alternate approach.",
+        "initial_condition": "hidden"
+      },
+      "replay": {
+        "pair_id": "val00010-C+D-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00010-C+D-CHECK-0/replay.json",
+        "replay_sha256": "5463aacd605a5705017e8bc0e54f28f69f8ab552dd1787e2be1f77108bb585f3",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/followup_round2.json",
+        "review_sha256": "11d31359dbba34372e7b5de8f2fbd844fd5def87b50e6a378e4b1b1aece04127",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00015-C+D-CHECK-0": {
+      "family": "C+D",
+      "review": {
+        "family": "C+D",
+        "audit_root": "artifacts/balanced_existing_v4/rescue_v2",
+        "audit_sha256": "7716e9671717982b530ef914028157e83c8ba2e9d9388e89dd49a0a0d678e030",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "opened__south_wide",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Frontal fridge interior and recognizable potato.",
+        "initial_condition": "hidden"
+      },
+      "replay": {
+        "pair_id": "val00015-C+D-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00015-C+D-CHECK-0/replay.json",
+        "replay_sha256": "8d20939c20ee5ac562862ca49926fc449d30cccbbcb02d57ce7a0681def62ce5",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/followup_round2.json",
+        "review_sha256": "11d31359dbba34372e7b5de8f2fbd844fd5def87b50e6a378e4b1b1aece04127",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00016-C+D-CHECK-0": {
+      "family": "C+D",
+      "review": {
+        "family": "C+D",
+        "audit_sha256": "f733135459ecf6e1805ae36e7a0410051567683a50e29a86455882304f2d5da3",
+        "initial_condition": "hidden",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "wide",
+        "reason": "Full open fridge and recognizable tomato after navigation and opening.",
+        "both_witnesses_readable": true
+      },
+      "replay": {
+        "pair_id": "val00016-C+D-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00016-C+D-CHECK-0/replay.json",
+        "replay_sha256": "bc3a72067fd3e886a8e13c19a95b9196a12e48efbe56ffe1d687c3fd21f9cdeb",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00016-C-CHECK-0": {
+      "family": "C",
+      "review": {
+        "family": "C",
+        "audit_sha256": "0cb700094926f56bb954ee938f7e3f5c5910eb07608905f1a6b8538c969411cc",
+        "initial_condition": "hidden",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "wide",
+        "reason": "Tomato recognizable and full opened interior visible in both members.",
+        "both_witnesses_readable": true
+      },
+      "replay": {
+        "pair_id": "val00016-C-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00016-C-CHECK-0/replay.json",
+        "replay_sha256": "d51163faceec658a0b2b518fec192c36eea74caad08e93bb62225de6e6224ad7",
+        "replay_visually_reviewed": true,
+        "reason": "Actual replay witnesses preserve recognizable target and full exposed fridge interior in both members.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00036-C+D-CHECK-0": {
+      "family": "C+D",
+      "review": {
+        "family": "C+D",
+        "audit_root": "artifacts/balanced_reserve_v4/audit",
+        "audit_sha256": "0b08caad405087e298cae9322c5ddcb09f82285df3ba1e14299c9a9966268e11",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "near",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Full exposed fridge interior; tomato distinguishable from egg.",
+        "initial_condition": "hidden"
+      },
+      "replay": {
+        "pair_id": "val00036-C+D-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00036-C+D-CHECK-0/replay.json",
+        "replay_sha256": "b16e706750b271412b1881ad86f483067c3a1c7fc5a35c19c38f3e690b353305",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/followup_round1.json",
+        "review_sha256": "ad4aef09ca96bffda3adbc6838ad8e33700812d29b82b40368cee07b4142c06e",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00039-C+D-CHECK-0": {
+      "family": "C+D",
+      "review": {
+        "family": "C+D",
+        "audit_root": "artifacts/balanced_reserve_v4/audit",
+        "audit_sha256": "91d324a6055d55cfc5835b87a11dc16cbb75f4c99e5751a67af2879e87333885",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "south",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Lettuce shape and complete opened fridge interior visible.",
+        "initial_condition": "hidden"
+      },
+      "replay": {
+        "pair_id": "val00039-C+D-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00039-C+D-CHECK-0/replay.json",
+        "replay_sha256": "3d3ab798463160c5dd90c51f937b36bb4efb81526b079d4971c550af453ca86d",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/followup_round1.json",
+        "review_sha256": "ad4aef09ca96bffda3adbc6838ad8e33700812d29b82b40368cee07b4142c06e",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00051-C+D-CHECK-0": {
+      "family": "C+D",
+      "review": {
+        "family": "C+D",
+        "audit_root": "artifacts/balanced_reserve_v4/audit",
+        "audit_sha256": "47926d791b31dd6d1ee2dcb62ee8c4601db2519e0b54af968bd8782ba35fb4c9",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "wide",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Eggs and complete frontal fridge interior; default view was blocked by open door.",
+        "initial_condition": "hidden"
+      },
+      "replay": {
+        "pair_id": "val00051-C+D-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00051-C+D-CHECK-0/replay.json",
+        "replay_sha256": "91c55750b8e59bdc82a61f7d30365df5b38a6da624bebeca21dc61327f4d1a9a",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/followup_round1.json",
+        "review_sha256": "ad4aef09ca96bffda3adbc6838ad8e33700812d29b82b40368cee07b4142c06e",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00051-C-CHECK-0": {
+      "family": "C",
+      "review": {
+        "family": "C",
+        "audit_sha256": "dfd8089897fadfd5e174d6d2dd26bff2e323d17f61341ccd7005d791125ddb14",
+        "initial_condition": "hidden",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "wide",
+        "reason": "Default near view is blocked by fridge door; wide view reveals eggs and the exposed interior.",
+        "both_witnesses_readable": true
+      },
+      "replay": {
+        "pair_id": "val00051-C-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00051-C-CHECK-0/replay.json",
+        "replay_sha256": "32bf0cc55c310699a1251c9081f32ba0e75c56e5f4afb070570c0c4b68a1f204",
+        "replay_visually_reviewed": true,
+        "reason": "Actual replay witnesses preserve recognizable target and full exposed fridge interior in both members.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00052-C+D-CHECK-0": {
+      "family": "C+D",
+      "review": {
+        "family": "C+D",
+        "audit_root": "artifacts/balanced_reserve_v4/audit",
+        "audit_sha256": "e9834702940a1c753b640b80cbe7ebe0efcc5264fbb56f293a9ea578b997210c",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "crouch",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Full frontal fridge interior, red apple at bottom recognizable and absence region exposed.",
+        "initial_condition": "hidden"
+      },
+      "replay": {
+        "pair_id": "val00052-C+D-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00052-C+D-CHECK-0/replay.json",
+        "replay_sha256": "e3434c13512fa21e0589d4065a8e8590a7b3fe89d49a18cd4701367174a04641",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/followup_round2.json",
+        "review_sha256": "11d31359dbba34372e7b5de8f2fbd844fd5def87b50e6a378e4b1b1aece04127",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00053-C+D-CHECK-0": {
+      "family": "C+D",
+      "review": {
+        "family": "C+D",
+        "audit_root": "artifacts/balanced_reserve_v4/audit",
+        "audit_sha256": "96939fc6af12677f556add28d72521fc42c81956ea398cf1e5d5b1d6c48a2f19",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "east",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Full frontal interior and eggs separately visible on top and bottom shelves.",
+        "initial_condition": "hidden"
+      },
+      "replay": {
+        "pair_id": "val00053-C+D-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v2/pairs/val00053-C+D-CHECK-0/replay.json",
+        "replay_sha256": "1d5df33b1624571fa70abfe2e4a27c2a8e149f7637775755f3878e1a748f882f",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired oracle replay frames reviewed: queried target recognizable and absence region exposed. For N, witness is the already-readable start frame.",
+        "review_path": "balanced_review/followup_round2.json",
+        "review_sha256": "11d31359dbba34372e7b5de8f2fbd844fd5def87b50e6a378e4b1b1aece04127",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00064-C-CHECK-0": {
+      "family": "C",
+      "review": {
+        "family": "C",
+        "audit_root": "artifacts/balanced_existing_v4/rescue_v1",
+        "audit_sha256": "42027f43cb07abe2856bd05a1ec720c4cf8b1e6f7de6b8137f591575b1e3e6ba",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "opened__west_wide",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Frontal full fridge interior and recognizable egg at bottom; original closer view was truncated.",
+        "initial_condition": "hidden"
+      },
+      "replay": {
+        "pair_id": "val00064-C-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00064-C-CHECK-0/replay.json",
+        "replay_sha256": "9e47204947af970f4884ea44319d792ff4f33cf02ec78fdc8443c00399d495a5",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/followup_round1.json",
+        "review_sha256": "ad4aef09ca96bffda3adbc6838ad8e33700812d29b82b40368cee07b4142c06e",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00075-C-CHECK-1": {
+      "family": "C",
+      "review": {
+        "family": "C",
+        "audit_sha256": "7d03d447fe71460ce4f88d46f7171ea98870dde359ba773f513806fd3ebed33c",
+        "initial_condition": "hidden",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "south",
+        "reason": "Apple recognizable; south approach shows the opened refrigerator and shelves in both members.",
+        "both_witnesses_readable": true
+      },
+      "replay": {
+        "pair_id": "val00075-C-CHECK-1",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00075-C-CHECK-1/replay.json",
+        "replay_sha256": "f56a3500eed52e754f3111f1b54d9fec8921ca11888535dda56a9defa86d7e46",
+        "replay_visually_reviewed": true,
+        "reason": "Actual replay preserves recognizable target and sufficiently exposed query region in both members.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00076-C-CHECK-0": {
+      "family": "C",
+      "review": {
+        "family": "C",
+        "audit_root": "artifacts/balanced_existing_v4/rescue_v1",
+        "audit_sha256": "e0e0d90d63cb6b375e0c3221fc4aea0ad2a59862d73d4e664f0c537f7274ae44",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "opened__south_wide",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Full frontal interior and egg distinct from red tomato.",
+        "initial_condition": "hidden"
+      },
+      "replay": {
+        "pair_id": "val00076-C-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00076-C-CHECK-0/replay.json",
+        "replay_sha256": "3dfc862a9bf723ac7dd5a186b5f259c43f085577c5fa79ff7a31845a4dc07345",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/followup_round1.json",
+        "review_sha256": "ad4aef09ca96bffda3adbc6838ad8e33700812d29b82b40368cee07b4142c06e",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00084-C-CHECK-0": {
+      "family": "C",
+      "review": {
+        "family": "C",
+        "audit_sha256": "af69a74117927edea5fa7db3a32599dfc3c30aa71de113658d6ab74771046cbd",
+        "initial_condition": "hidden",
+        "reviewed": "paired full contact sheet",
+        "decision": "accept",
+        "witness_phase": "wide",
+        "reason": "Wide frontal view covers open fridge; eggs visible on lower shelves only in positive member.",
+        "both_witnesses_readable": true
+      },
+      "replay": {
+        "pair_id": "val00084-C-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_v1/pairs/val00084-C-CHECK-0/replay.json",
+        "replay_sha256": "a8623dbda31aff69f3400e0f257603d4f5fd3a5fe61ef665fd8f7c78fd3803c4",
+        "replay_visually_reviewed": true,
+        "reason": "Actual replay preserves recognizable target and sufficiently exposed query region in both members.",
+        "review_path": "balanced_review/review_complete_v1.json",
+        "review_sha256": "6d98d199df194de4855fb5bfa62ea1b59ec25dddd918a1079a73d16319fa5404",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00096-C-CHECK-0": {
+      "family": "C",
+      "review": {
+        "family": "C",
+        "audit_root": "artifacts/balanced_reserve_v4/audit",
+        "audit_sha256": "0e2323419f77590518548b1593a6b4fb15586f3091606cac60e22939ae1aef42",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "wide",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Recognizable egg and full opened fridge interior.",
+        "initial_condition": "hidden"
+      },
+      "replay": {
+        "pair_id": "val00096-C-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00096-C-CHECK-0/replay.json",
+        "replay_sha256": "083e3db4fdf37e18a9cc8309df13a6b4388c98a2683b2593d8f06b6da71d48c8",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/followup_round1.json",
+        "review_sha256": "ad4aef09ca96bffda3adbc6838ad8e33700812d29b82b40368cee07b4142c06e",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00103-C-CHECK-0": {
+      "family": "C",
+      "review": {
+        "family": "C",
+        "audit_root": "artifacts/balanced_reserve_v4/audit",
+        "audit_sha256": "6c7294eb7afd6ff1b4daec00571cc46a0128b03ca5c9aab401312a124d8ec592",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "east",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Recognizable tomato and complete frontal fridge interior.",
+        "initial_condition": "hidden"
+      },
+      "replay": {
+        "pair_id": "val00103-C-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00103-C-CHECK-0/replay.json",
+        "replay_sha256": "7b15945e642acc1673ed2d926ca1b0f432cd42ca7c460ba359a9131a2ff6dbe8",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/followup_round1.json",
+        "review_sha256": "ad4aef09ca96bffda3adbc6838ad8e33700812d29b82b40368cee07b4142c06e",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    },
+    "val00109-C-CHECK-0": {
+      "family": "C",
+      "review": {
+        "family": "C",
+        "audit_root": "artifacts/balanced_reserve_v4/audit",
+        "audit_sha256": "d9e31f33858f3907e791a7361c086d5963275bfbf4b891d6137f715c165adee5",
+        "decision": "accept",
+        "both_witnesses_readable": true,
+        "witness_phase": "south",
+        "reviewed": "actual paired contact sheets",
+        "reason": "Several recognizable eggs distinguish the pair; full frontal interior.",
+        "initial_condition": "hidden"
+      },
+      "replay": {
+        "pair_id": "val00109-C-CHECK-0",
+        "replay_path": "artifacts/balanced_existing_v4/replay_followup_v1/pairs/val00109-C-CHECK-0/replay.json",
+        "replay_sha256": "8edbdd04c4640ff440485bf588c30eaaedaf8bd8f1afb3f788e313bef16fb402",
+        "replay_visually_reviewed": true,
+        "reason": "Actual paired replay frames reviewed: recognizable queried object and adequately exposed query region on absence member.",
+        "review_path": "balanced_review/followup_round1.json",
+        "review_sha256": "ad4aef09ca96bffda3adbc6838ad8e33700812d29b82b40368cee07b4142c06e",
+        "initial_condition_reviewed": true,
+        "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+      },
+      "initial_condition_note": "Initial paired RGB views reviewed; queried evidence not readable from the start. Pixel checks are diagnostics, not universal leak guarantees."
+    }
+  },
+  "selection_sha256": "6f4ceea3f8bfedd06458824735f52f35b78f7a13806266a06f7cd591e11c1caa",
+  "selection_policy": "source house then pair ID, up to ten per family, one house per family; no model outcomes",
+  "limitations": [
+    "Existing validation houses were reused for instrument development, including prior frozen-model diagnostics. This is a development benchmark, not an untouched generalization test.",
+    "L and L+D are low-light strata. Synthetic room-local attenuation can be bypassed by some outside-room views; mandatory lighting actions and zero information in initial RGB are not established.",
+    "N controls use derived shared readable-start poses from existing scenes, and STATE is a separate query axis. Neither enters the equal-family CHECK macro.",
+    "D+door has only three currently valid existing-source pairs; uncertainty is large. O is excluded and L+C/C+C are absent from the historical source pool.",
+    "Task inclusion uses visual semantic review and legal oracle replay, never evaluated-model scores. Fixed routes, masks and timeouts alone are not invalidity criteria. Review is assistant visual inspection, not independent blinded multi-rater annotation.",
+    "Two initial pixel-difference flags overlap within-world renderer variance on repeat checks. These limited tests do not establish absence of every visual or feedback side channel.",
+    "Policy receives current RGB plus textual action/result history, without previous-image memory, under the inspection-v4-dev query-object-reference restriction and uniform hidden budget. This is one specified policy protocol, not a bound on model capability.",
+    "Greedy start-frame, oracle-witness-frame and interactive evaluations are reported separately. Pair correctness alone does not certify evidence acquisition; geometric evidence fields remain proxies.",
+    "The same house can appear in different families. There is one house per pair within each family; pairs across families are not statistically independent.",
+    "No teacher model, training, SFT, new houses, or old-paper thesis validation is part of this run."
+  ],
+  "upstream_sources": {
+    "scripts/replay_balanced_witnesses.py": "179879a04eed60deed4fecfd1f68cff5c89c6e225c56841bcb5bcc3c980d3fba",
+    "epact/__init__.py": "5061b1152e467bead0c0f2e307a861b06bf5f0b2515b73ddd12bfe23910683bf",
+    "epact/actions.py": "9f3ecff05e0e647f1bc2cba6f910e9d3e0fab660df3d156df3769901b80f31f9",
+    "epact/baselines.py": "35fae786e3b40669e88d5338ad33f9566797f00f4f8937e8c1d5a62dcc940fe1",
+    "epact/episode.py": "93a6b194f8e7d27833686a1989ca75c65c0b41725052d08680a7d1825ac44085",
+    "epact/evidence.py": "af81d2caca2b42dc08fb971d3c8bbb7c51fcd3d37305012bd1f9a320322a798b",
+    "epact/generator.py": "1f55230b6c38cc41219cb1a9dab1b2950de48b451ffb382057d51293a4729a59",
+    "epact/inspection.py": "bc9504a95806b5d2a5ebd23ed5fa50920fbf6770167ab2582e1f93c74a6beddf",
+    "epact/pairing.py": "54164ef0ed226df9f1e8527e0370e2d81b06d577bf75ab8a34542e2700401d98",
+    "epact/serialize.py": "671594fad1bbfbe6892cef062058d60ba764072e1bff29b0069ef649d8bf6cce",
+    "epact/sim.py": "b8b1ddd0e6e27d17f3d6f372bc2a217dc833a8499d9ef1ff775e5d522334a01b"
+  },
+  "release_note": "Source checks rebound to the portable checkout. Original values remain in upstream_sources. Scene/task data are unchanged.",
+  "historical_manifest": {
+    "path": "results/epact/recorded/experiments/no_open_to_container_20260928/eval/manifest.json",
+    "sha256": "aee9d3d032dc7f90e12f08e70b3aa5c0d2d91afb139c9fe3a0ced8279f57efc1",
+    "relocation_only": true,
+    "live_reexecution_validated": false
+  },
+  "code_layout": "environment-data-training-evaluation-diagnostics-runtime",
+  "live_reexecution_validated": false
+}

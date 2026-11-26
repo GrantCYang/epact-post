@@ -1,0 +1,82 @@
+action_index,action,ok,rule,new_feasibility,outcome,agent
+
+1,"{""move"": ""forward""}",False,legs_dead,,"{""action"": {""move"": ""forward""}, ""theta_applied"": ""legs"", ""ok"": false, ""rule"": ""legs_dead""}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 270, ""horizon"": 30.000003814697266}"
+
+2,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 180, ""horizon"": 30.000003814697266}"
+
+3,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+4,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+5,"{""try_lift"": ""fork""}",False,not_visible,,"{""action"": {""try_lift"": ""fork""}, ""theta_applied"": null, ""ok"": false, ""rule"": ""not_visible""}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+6,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 270, ""horizon"": 30.000003814697266}"
+
+7,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+8,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 270, ""horizon"": 30.000003814697266}"
+
+9,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+10,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+11,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+12,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+13,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+14,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+15,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+16,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+17,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+18,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+19,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+20,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+21,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+22,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+23,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+24,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+25,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+26,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+27,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+28,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+29,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+30,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+31,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+32,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+33,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+34,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+35,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+36,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+37,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+38,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+
+39,"{""rotate"": ""left""}",True,,,"{""action"": {""rotate"": ""left""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 0, ""horizon"": 30.000003814697266}"
+
+40,"{""rotate"": ""right""}",True,,,"{""action"": {""rotate"": ""right""}, ""theta_applied"": null, ""ok"": true}","{""position"": {""x"": 1.0, ""y"": 0.9009991884231567, ""z"": 0.5}, ""rotation"": 90, ""horizon"": 30.000003814697266}"
+

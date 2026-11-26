@@ -1,0 +1,322 @@
+[
+  {
+    "task_id": "val00000-C+D-CHECK-0-twin",
+    "pair_id": "val00000-C+D-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": true,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00000-C+D-CHECK-0",
+    "pair_id": "val00000-C+D-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": true,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00000-C-CHECK-0-twin",
+    "pair_id": "val00000-C-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": true,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00000-C-CHECK-0",
+    "pair_id": "val00000-C-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": true,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00004-C+D-CHECK-0-twin",
+    "pair_id": "val00004-C+D-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": true,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00004-C+D-CHECK-0",
+    "pair_id": "val00004-C+D-CHECK-0",
+    "answer": "yes",
+    "pred": null,
+    "egg": true,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00010-C+D-CHECK-0-twin",
+    "pair_id": "val00010-C+D-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": true,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00010-C+D-CHECK-0",
+    "pair_id": "val00010-C+D-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": true,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00015-C+D-CHECK-0-twin",
+    "pair_id": "val00015-C+D-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": false,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00015-C+D-CHECK-0",
+    "pair_id": "val00015-C+D-CHECK-0",
+    "answer": "yes",
+    "pred": null,
+    "egg": false,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00016-C+D-CHECK-0-twin",
+    "pair_id": "val00016-C+D-CHECK-0",
+    "answer": "no",
+    "pred": "yes",
+    "egg": false,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00016-C+D-CHECK-0",
+    "pair_id": "val00016-C+D-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": false,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00016-C-CHECK-0-twin",
+    "pair_id": "val00016-C-CHECK-0",
+    "answer": "no",
+    "pred": "yes",
+    "egg": false,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00016-C-CHECK-0",
+    "pair_id": "val00016-C-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": false,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00036-C+D-CHECK-0-twin",
+    "pair_id": "val00036-C+D-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": false,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00036-C+D-CHECK-0",
+    "pair_id": "val00036-C+D-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": false,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00039-C+D-CHECK-0-twin",
+    "pair_id": "val00039-C+D-CHECK-0",
+    "answer": "no",
+    "pred": null,
+    "egg": false,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00039-C+D-CHECK-0",
+    "pair_id": "val00039-C+D-CHECK-0",
+    "answer": "yes",
+    "pred": null,
+    "egg": false,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00051-C+D-CHECK-0-twin",
+    "pair_id": "val00051-C+D-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": true,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00051-C+D-CHECK-0",
+    "pair_id": "val00051-C+D-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": true,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00051-C-CHECK-0-twin",
+    "pair_id": "val00051-C-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": true,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00051-C-CHECK-0",
+    "pair_id": "val00051-C-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": true,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00052-C+D-CHECK-0-twin",
+    "pair_id": "val00052-C+D-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": false,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00052-C+D-CHECK-0",
+    "pair_id": "val00052-C+D-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": false,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00053-C+D-CHECK-0-twin",
+    "pair_id": "val00053-C+D-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": true,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00053-C+D-CHECK-0",
+    "pair_id": "val00053-C+D-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": true,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00064-C-CHECK-0-twin",
+    "pair_id": "val00064-C-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": true,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00064-C-CHECK-0",
+    "pair_id": "val00064-C-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": true,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00075-C-CHECK-1-twin",
+    "pair_id": "val00075-C-CHECK-1",
+    "answer": "no",
+    "pred": "no",
+    "egg": false,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00075-C-CHECK-1",
+    "pair_id": "val00075-C-CHECK-1",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": false,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00076-C-CHECK-0-twin",
+    "pair_id": "val00076-C-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": true,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00076-C-CHECK-0",
+    "pair_id": "val00076-C-CHECK-0",
+    "answer": "yes",
+    "pred": "no",
+    "egg": true,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00084-C-CHECK-0-twin",
+    "pair_id": "val00084-C-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": true,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00084-C-CHECK-0",
+    "pair_id": "val00084-C-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": true,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00096-C-CHECK-0-twin",
+    "pair_id": "val00096-C-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": true,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00096-C-CHECK-0",
+    "pair_id": "val00096-C-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": true,
+    "reasoned_pred": "yes"
+  },
+  {
+    "task_id": "val00103-C-CHECK-0-twin",
+    "pair_id": "val00103-C-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": false,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00103-C-CHECK-0",
+    "pair_id": "val00103-C-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": false,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00109-C-CHECK-0-twin",
+    "pair_id": "val00109-C-CHECK-0",
+    "answer": "no",
+    "pred": "no",
+    "egg": true,
+    "reasoned_pred": "no"
+  },
+  {
+    "task_id": "val00109-C-CHECK-0",
+    "pair_id": "val00109-C-CHECK-0",
+    "answer": "yes",
+    "pred": "yes",
+    "egg": true,
+    "reasoned_pred": "yes"
+  }
+]
